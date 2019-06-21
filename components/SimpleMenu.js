@@ -28,7 +28,7 @@ export default function SimpleMenu() {
         keepMounted
         open={Boolean(anchorEl)}
       >
-        <MenuItem><Link href="index"><a className="menu-decoration">Inicio</a></Link></MenuItem>
+        <Link href="index"><MenuItem><a className="menu-decoration">Inicio</a></MenuItem></Link>
         <MenuItem><Link href="eventos"><a className="menu-decoration">Eventos</a></Link></MenuItem>
         <MenuItem><Link href="galeria"><a className="menu-decoration">Galeria</a></Link></MenuItem>
         <MenuItem><Link href="patrocinadores"><a className="menu-decoration">Patrocinadores</a></Link></MenuItem>
