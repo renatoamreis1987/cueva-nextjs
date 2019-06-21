@@ -1,0 +1,17 @@
+.main-header {
+    width: 100%;
+    position: fixed;
+    background: #f96332;
+    padding: 0.2rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1rem !important;
+  }
+  
+  .main-header__brand {
+    text-decoration: inherit;
+    color: #ffffff;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  
