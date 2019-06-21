@@ -29,11 +29,11 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
       >
         <Link href="index"><MenuItem><a className="menu-decoration">Inicio</a></MenuItem></Link>
-        <MenuItem><Link href="eventos"><a className="menu-decoration">Eventos</a></Link></MenuItem>
-        <MenuItem><Link href="galeria"><a className="menu-decoration">Galeria</a></Link></MenuItem>
-        <MenuItem><Link href="patrocinadores"><a className="menu-decoration">Patrocinadores</a></Link></MenuItem>
-        <MenuItem><Link href="quiene-somos"><a className="menu-decoration">¿Quiene Somos?</a></Link></MenuItem>
-        <MenuItem><Link href="contacto"><a className="menu-decoration">Contáctanos</a></Link></MenuItem>
+        <Link href="eventos"><MenuItem><a className="menu-decoration">Eventos</a></MenuItem></Link>
+        <Link href="galeria"><MenuItem><a className="menu-decoration">Galeria</a></MenuItem></Link>
+        <Link href="patrocinadores"><MenuItem><a className="menu-decoration">Patrocinadores</a></MenuItem></Link>
+        <Link href="quiene-somos"><MenuItem><a className="menu-decoration">¿Quiene Somos?</a></MenuItem></Link>
+        <Link href="contacto"><MenuItem><a className="menu-decoration">Contáctanos</a></MenuItem></Link>
       </Menu>
 
 
