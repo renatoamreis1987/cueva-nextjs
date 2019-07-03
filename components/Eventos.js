@@ -12,7 +12,9 @@ const Eventos = () => (
           VII carrera nocturna corre por el centro peninsular
         </p>
         <p className="patrocinadores-fecha">Fecha: 03/08/19</p>
+        <Link href="/pages/eventos/evento-vii">
         <button className="btn-eventos">Ver Reglamento</button>
+        </Link>
         <Link href="/static/gallery.html">
         <button className="btn-eventos">Ver Galeria</button>
         </Link>

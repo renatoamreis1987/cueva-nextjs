@@ -15,7 +15,10 @@ const eventovii = () => (
       <h3 className="reglamento-data">3 de Agosto de 2019</h3>
       <div className="main-info__eventos-image">
         <a href="../images/eventos/cartel.jpeg" target="_blank">
-          <img className="eventos-main__imagem" src="https://renatoamreis1987.github.io/cueva-2/images/eventos/cartel.jpeg" />
+          <img
+            className="eventos-main__imagem"
+            src="/static/cartels/cartel-vii.jpeg"
+          />
         </a>
       </div>
       <h2 className="reglamento-h2">Reglamento</h2>
@@ -175,7 +178,6 @@ const eventovii = () => (
 
     <MainFooter />
 
-
     <style jsx>{`
 
         @font-face {
@@ -193,6 +195,7 @@ const eventovii = () => (
     }
     
     .main-info {
+      font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
       grid-area: main-one;
       display: flex;
       flex-direction: column;
@@ -238,7 +241,6 @@ const eventovii = () => (
     }
 
       `}</style>
-
   </div>
 );
 
