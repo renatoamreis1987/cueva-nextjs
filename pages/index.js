@@ -8,6 +8,7 @@ import MainFooter from "../components/MainFooter"
 
 const Home = () => (
   <div>
+    <Head />
     <MainNav />
     <MainHeader />
     <MainInfo />
