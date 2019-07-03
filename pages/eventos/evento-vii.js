@@ -14,7 +14,7 @@ const eventovii = () => (
       </h1>
       <h3 className="reglamento-data">3 de Agosto de 2019</h3>
       <div className="main-info__eventos-image">
-        <a href="../images/eventos/cartel.jpeg" target="_blank">
+        <a href="/static/cartels/cartel-vii.jpeg" target="_blank">
           <img
             className="eventos-main__imagem"
             src="/static/cartels/cartel-vii.jpeg"
