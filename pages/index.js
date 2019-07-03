@@ -4,7 +4,7 @@ import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
 import MainInfo from "../components/MainInfo"
 import MainFooter from "../components/MainFooter"
-
+import Head from "../components/head"
 
 const Home = () => (
   <div>
