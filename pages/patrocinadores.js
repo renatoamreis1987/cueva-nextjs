@@ -1,16 +1,38 @@
-import React from "react";
+import React, { Component } from "react";
 import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
-import Patrocinadores from "../components/Patrocinadores"
-import MainFooter from "../components/MainFooter"
+import Patrocinadores from "../components/Patrocinadores";
+import MainFooter from "../components/MainFooter";
 
-const patrocinadores = () => (
-  <div>
-    <MainNav />
-    <MainHeader />
-    <Patrocinadores />
-    <MainFooter />
-  </div>
-);
+class patrocinadores extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      patrocinadores: []
+    };
+  }
+
+  componentDidMount() {
+    fetch("https://api.myjson.com/bins/wohsr")
+      .then(response => response.json())
+      .then(patrocinadoresLista =>
+        this.setState({ patrocinadores: patrocinadoresLista })
+      );
+  }
+
+  render() {
+    const { patrocinadores } = this.state;
+
+    return (
+      <div>
+        <MainNav />
+        <MainHeader />
+        <Patrocinadores patrocinadores={patrocinadores} />
+        <MainFooter />
+      </div>
+    );
+  }
+}
 
 export default patrocinadores;

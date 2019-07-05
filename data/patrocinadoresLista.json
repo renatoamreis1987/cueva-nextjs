@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Automóviles Quesada",
+    "image": "https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/neumaticos_quintana.png",
+    "link": "https://grupoquintana.es/"
+  },
+  {
+    "id": "2",
+    "name": "Coca-Cola",
+    "image": "https://preloaded.com/wp-content/uploads/2017/10/Coca-Cola-black.png",
+    "link": "https://www.cocacola.es/"
+  },
+  {
+    "id": "3",
+    "name": "Restaurante El Barril",
+    "image": "",
+    "link" : ""
+  },
+  {
+    "id": "4",
+    "name": "San Lorenzo Membrillo",
+    "image": "https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/SanLorenzoMembrillo.png",
+    "link": "https://membrillosanlorenzo.com"
+  }
+]

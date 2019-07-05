@@ -1,22 +1,39 @@
 import React from "react";
 import Link from "next/link";
 
-const Patrocinadores = props => (
+const Patrocinadores = () => (
   <div className="main-info">
     <h1 className="reglamento-h1">
       Los patrocinadores habituales de nuestros eventos
     </h1>
     <div className="main-info-1">
-      {console.log(props.patrocinadores)}
-      {props.patrocinadores.map(patrocinadores => (
-        <div key={patrocinadores.id} className="patrocinadores-div">
-           <Link href={patrocinadores.link}>
-             <a target="_blank">
-              <img className="patrocinadores-img" src={patrocinadores.image}></img>
-             </a>
-           </Link>
-        </div>
-      ))}
+      <div className="patrocinadores-div">
+        <img src="https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/neumaticos_quintana.png" alt="" />
+      </div>
+      <div className="patrocinadores-div patrocinadores-text">
+        Automóviles Quesada
+      </div>
+      <div className="patrocinadores-div patrocinadores-text">
+        Restaurante El Barril
+      </div>
+      <div className="patrocinadores-div">
+        <img src="https://preloaded.com/wp-content/uploads/2017/10/Coca-Cola-black.png" alt="" />
+      </div>
+      <div className="patrocinadores-div">
+        <img src="https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/Iberitos.png" alt="" />
+      </div>
+      <div className="patrocinadores-div">
+        <img src="https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/SanLorenzoMembrillo.png" alt="" />
+      </div>
+      <div className="patrocinadores-div">
+        <img src="./logos/1280px-Coca-Cola_logo.svg.png" alt="" />
+      </div>
+      <div className="patrocinadores-div">
+        <img src="./logos/Iberitos.png" alt="" />
+      </div>
+      <div className="patrocinadores-div">
+        <img src="./logos/SanLorenzoMembrillo.png" alt="" />
+      </div>
     </div>
 
     <style jsx>{`
@@ -91,10 +108,9 @@ const Patrocinadores = props => (
         text-align: center;
       }
 
-      .patrocinadores-img {
+      .patrocinadores-div img {
         max-width: 100%;
-        max-height: 180px;
-        align-items: center;
+        max-height: 100%;
       }
 
       @media (max-width: 950px) {
