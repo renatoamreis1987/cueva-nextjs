@@ -25,13 +25,13 @@ npm run start
 
 * Github: [@renatoamreis1987](https://github.com/renatoamreis1987)
 
-## 🤝 Contributing
+## WebPage
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/renatoamreis1987/cueva-nextjs/issues).
+Currently hosted: https://cueva.herokuapp.com/
 
-## Show your support
+## Important Notes
 
-Give a ⭐️ if this project helped you!
+To add     "start": "next start -p $PORT"   on package.json before host on heroku
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
