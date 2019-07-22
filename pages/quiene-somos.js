@@ -114,7 +114,7 @@ const equipo = () => (
         transform: translateY(2.6rem);
         z-index: 1000;
         background: white;
-        max-width: 20rem;
+        max-width: 18rem;
       }
 
       @media (max-width: 500px) {

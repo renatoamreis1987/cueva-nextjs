@@ -28,12 +28,12 @@ export default function SimpleMenu() {
         keepMounted
         open={Boolean(anchorEl)}
       >
-        <Link href="index"><MenuItem><a className="menu-decoration">Inicio</a></MenuItem></Link>
-        <Link href="eventos"><MenuItem><a className="menu-decoration">Eventos</a></MenuItem></Link>
-        <Link href="galeria"><MenuItem><a className="menu-decoration">Galeria</a></MenuItem></Link>
-        <Link href="patrocinadores"><MenuItem><a className="menu-decoration">Patrocinadores</a></MenuItem></Link>
-        <Link href="quiene-somos"><MenuItem><a className="menu-decoration">¿Quiene Somos?</a></MenuItem></Link>
-        <Link href="contacto"><MenuItem><a className="menu-decoration">Contáctanos</a></MenuItem></Link>
+        <Link href="/index"><MenuItem><a className="menu-decoration">Inicio</a></MenuItem></Link>
+        <Link href="/eventos"><MenuItem><a className="menu-decoration">Eventos</a></MenuItem></Link>
+        <Link href="/galeria"><MenuItem><a className="menu-decoration">Galeria</a></MenuItem></Link>
+        <Link href="/patrocinadores"><MenuItem><a className="menu-decoration">Patrocinadores</a></MenuItem></Link>
+        <Link href="/quiene-somos"><MenuItem><a className="menu-decoration">¿Quiene Somos?</a></MenuItem></Link>
+        <Link href="/contacto"><MenuItem><a className="menu-decoration">Contáctanos</a></MenuItem></Link>
       </Menu>
 
 

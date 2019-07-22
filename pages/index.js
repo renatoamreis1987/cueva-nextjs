@@ -8,14 +8,15 @@ import MainFooter from "../components/MainFooter";
 import HeadComponent from "../components/HeadComponent";
 
 const Home = () => (
-  <div>
-    {/* <Head /> */}
+  <div className="body-main">
     <HeadComponent />
     <MainNav />
     <MainHeader />
     <MainInfo />
     <MainFooter />
-    <style jsx>{``}</style>
+    <style jsx>{`
+
+`}</style>
   </div>
 );
 

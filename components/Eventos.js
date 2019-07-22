@@ -1,62 +1,28 @@
 import React from "react";
 import Link from "next/link";
+import patrocinadores from "../pages/patrocinadores";
 
-
-
-const Eventos = () => (
+const Eventos = props => (
   <div className="container main-info">
     <h1 className="reglamento-h1">Nuestros Eventos</h1>
     <div className="main-info-1">
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">
-          VII carrera nocturna corre por el centro peninsular
-        </p>
-        <p className="patrocinadores-fecha">Fecha: 03/08/19</p>
-        <Link href="/pages/eventos/evento-vii">
-        <button className="btn-eventos">Ver Reglamento</button>
-        </Link>
-        <Link href="/static/gallery.html">
-        <button className="btn-eventos">Ver Galeria</button>
-        </Link>
-      </div>
-
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">VII San Pinteña</p>
-        <p className="patrocinadores-fecha">Fecha: 23/12/18</p>
-        <button className="btn-eventos">Ver Reglamento</button>
-        <button className="btn-eventos">Ver Galeria</button>
-      </div>
-
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">
-          VI carrera nocturna corre por el centro peninsular
-        </p>
-        <p className="patrocinadores-fecha">Fecha: 04/08/18</p>
-        <button className="btn-eventos">Ver Reglamento</button>
-        <button className="btn-eventos">Ver Galeria</button>
-      </div>
-
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">
-          V carrera nocturna corre por el centro peninsular
-        </p>
-        <p className="patrocinadores-fecha">Fecha: 12/08/17</p>
-        <button className="btn-eventos">Ver Reglamento</button>
-        <button className="btn-eventos">Ver Galeria</button>
-      </div>
-
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">IV San Pinteña</p>
-        <p className="patrocinadores-fecha">Fecha: 27/12/15</p>
-        <button className="btn-eventos">Ver Reglamento</button>
-        <button className="btn-eventos">Ver Galeria</button>
-      </div>
-
-      <div className="patrocinadores-div">
-        <p className="patrocinadores-titulo">VIAJE A LEKEITIO</p>
-        <p className="patrocinadores-fecha">Fecha: 10/10/15</p>
-        <button className="btn-eventos">Ver Galeria</button>
-      </div>
+      {console.log(props.eventos)}
+      {props.eventos.map(eventos => (
+        <div key={eventos.id} className="patrocinadores-div">
+          <p className="patrocinadores-titulo">{eventos.evento}</p>
+          <p className="patrocinadores-fecha">{eventos.fecha}</p>
+          {eventos.reglamento !== null ? (
+            <Link href={eventos.reglamento}>
+              <button className="btn-eventos">Ver Reglamento</button>
+            </Link>
+          ) : null}
+          {eventos.galeria !== null ? (
+            <Link href={eventos.galeria}>
+              <button className="btn-eventos">Ver Galeria</button>
+            </Link>
+          ) : null}
+        </div>
+      ))}
     </div>
 
     <style jsx>{`

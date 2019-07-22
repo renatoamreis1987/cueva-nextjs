@@ -173,6 +173,11 @@ const eventovii = () => (
         </p>
         <br />
         <h3>Artículo 10 (Circuito)</h3>
+        <div> 
+          <a href="/static/eventos/circuito-vii.png" target="_blank">
+          <img className="circuito" src="/static/eventos/circuito-vii.png" />
+          </a>
+        </div>
       </div>
     </div>
 
@@ -238,6 +243,13 @@ const eventovii = () => (
     
     .event-neg {
         font-weight: 600;
+    }
+
+    .circuito {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 90%;
     }
 
       `}</style>

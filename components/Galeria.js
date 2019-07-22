@@ -1,48 +1,32 @@
 import React from "react";
 import Link from "next/link";
 
-const Galeria = () => (
+const Galeria = props => (
   <div className="container main-info">
-    <h1 className="reglamento-h1">Galería de Fotos</h1>
-
+    <h1 className="reglamento-h1"> Galeria de Fotos </h1>
     <div className="main-info-1">
-      <div className="patrocinadores-div">
-      <Link href="/static/gallery.html">
-        <a>
-          <img
-            className="patrocinadores-div-img"
-            src="http://www.cuevakunyhebles.com/wp-content/uploads/2018/11/san-pinten%CC%83a-1-722x1024.jpg"
-            alt=""
-          />
-        </a>
-        </Link>
-      </div>
-      <div className="patrocinadores-div patrocinadores-text">
-        <img
-          className="patrocinadores-div-img"
-          src="http://www.cuevakunyhebles.com/wp-content/uploads/2018/06/CARTEL-NOCTURNA-2018-682x1024.jpeg"
-          alt=""
-        />
-      </div>
-      <div className="patrocinadores-div patrocinadores-text">
-        <img
-          className="patrocinadores-div-img"
-          src="http://www.cuevakunyhebles.com/wp-content/uploads/2016/11/SANPINTE%C3%91A2015.jpg"
-          alt=""
-        />
-      </div>
-      <div className="patrocinadores-div">
-        <img
-          className="patrocinadores-div-img"
-          src="http://www.cuevakunyhebles.com/wp-content/uploads/2017/11/SAN-PINTE%C3%91A-ACTUALIZADO-723x1024.jpg"
-          alt=""
-        />
-      </div>
-      <div className="patrocinadores-div patrocinadores-text">
-        Viaje a Lekeitio
-      </div>
+      {console.log(props.galeria)}
+      {props.galeria.map(galeria => (
+        <div
+          key={galeria.id}
+          className="patrocinadores-div patrocinadores-text"
+        >
+          <Link href={galeria.href}>
+            <a>
+              {galeria.evento === null ? (
+                <img
+                  className="patrocinadores-div-img"
+                  src={galeria.image}
+                  alt=""
+                />
+              ) : (
+                <p>{galeria.evento}</p>
+              )}
+            </a>
+          </Link>
+        </div>
+      ))}
     </div>
-
     <style jsx>{`
         @font-face {
         font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;

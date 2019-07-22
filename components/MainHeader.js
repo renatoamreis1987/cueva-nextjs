@@ -60,7 +60,6 @@ const MainHeader = () => (
         
           .main-overview__text-h2 {
             font-size: 1rem;
-            padding-top: 3rem;
             opacity: 0.9;
             font-weight: 600;
           }

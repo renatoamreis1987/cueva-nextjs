@@ -15,15 +15,31 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/contacto": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/eventos": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/galeria": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/galeria/2015lekeitio": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/patrocinadores": [
+    "/next/dist/pages/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/quiene-somos": [
+    "/patrocinadores": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

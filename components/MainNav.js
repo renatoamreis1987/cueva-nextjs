@@ -138,7 +138,7 @@ const MainNav = () => (
       @media (max-width: 950px) {
         body {
           margin: 0;
-          height: 100%;
+          width: 100%;
           display: grid;
           font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
           grid-template-rows: 1.5rem auto auto auto;
@@ -172,6 +172,11 @@ const MainNav = () => (
       
         .main-nav {
           display: none;
+        }
+
+        .main-header {
+          width: 100%;
+
         }
       
         .main-header__brand {

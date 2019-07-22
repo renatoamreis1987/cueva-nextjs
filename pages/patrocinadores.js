@@ -14,7 +14,7 @@ class patrocinadores extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.myjson.com/bins/wohsr")
+    fetch("/static/data/patrocinadoresLista.json")
       .then(response => response.json())
       .then(patrocinadoresLista =>
         this.setState({ patrocinadores: patrocinadoresLista })
