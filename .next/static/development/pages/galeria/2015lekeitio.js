@@ -44748,7 +44748,7 @@ var photos = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 0:
 /*!***********************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fgaleria%2F2015lekeitio&absolutePagePath=C%3A%5CUsers%5CDELL%5CDesktop%5Ccueva-nextjs%5Cpages%5Cgaleria%5C2015lekeitio.js ***!
   \***********************************************************************************************************************************************************************/
@@ -44771,5 +44771,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[0,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=2015lekeitio.js.map

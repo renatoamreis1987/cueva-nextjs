@@ -29769,7 +29769,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 5:
 /*!*****************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fgaleria&absolutePagePath=C%3A%5CUsers%5CDELL%5CDesktop%5Ccueva-nextjs%5Cpages%5Cgaleria.js ***!
   \*****************************************************************************************************************************************/
@@ -29792,5 +29792,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[5,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=galeria.js.map

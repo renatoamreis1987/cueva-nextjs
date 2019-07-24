@@ -11,9 +11,13 @@ const Patrocinadores = props => (
       {props.patrocinadores.map(patrocinadores => (
         <div key={patrocinadores.id} className="patrocinadores-div">
            <Link href={patrocinadores.link}>
-             <a target="_blank">
-              <img className="patrocinadores-img" src={patrocinadores.image}></img>
-             </a>
+             {patrocinadores.image !== null ? (
+               <a target="_blank">
+               <img className="patrocinadores-img" src={patrocinadores.image}></img>
+              </a>
+             ) : (
+               <p className="patrocinadores-text">{patrocinadores.name}</p>
+             ) }
            </Link>
         </div>
       ))}
@@ -78,10 +82,11 @@ const Patrocinadores = props => (
         height: 12rem;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         border-radius: 1rem;
         margin: 0.5rem;
+
       }
 
       .patrocinadores-text {
@@ -92,9 +97,10 @@ const Patrocinadores = props => (
       }
 
       .patrocinadores-img {
-        max-width: 100%;
+        max-width: 95%;
         max-height: 180px;
-        align-items: center;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
       }
 
       @media (max-width: 950px) {

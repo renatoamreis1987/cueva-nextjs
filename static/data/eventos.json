@@ -4,7 +4,7 @@
     "evento": "VII carrera nocturna corre por el centro peninsular",
     "fecha": "Fecha: 03/08/2019",
     "reglamento": "/eventos/evento-vii",
-    "galeria": "/static/gallery.html"
+    "galeria": null
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "id": 3,
     "evento": "VI carrera nocturna corre por el centro peninsular",
     "fecha": "Fecha: 04/08/2018",
-    "reglamento": null,
+    "reglamento": "/eventos/evento-vi-carrera-nocturna",
     "galeria": null
   }
 ]

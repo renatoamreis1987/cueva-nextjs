@@ -14,13 +14,64 @@
   {
     "id": "3",
     "name": "Restaurante El Barril",
-    "image": "",
-    "link" : ""
+    "image": "/static/images/patrocinadores/ElBarril.png",
+    "link": ""
   },
   {
     "id": "4",
     "name": "San Lorenzo Membrillo",
     "image": "https://renatoamreis1987.github.io/cueva-2/patrocinadores/logos/SanLorenzoMembrillo.png",
     "link": "https://membrillosanlorenzo.com"
+  },
+  {
+    "id": "5",
+    "name": "Iberitos",
+    "image": "https://www.iberitos.com/www/wp-content/uploads/2018/08/Iberitos.png",
+    "link": "https://www.iberitos.com/"
+  },
+  {
+    "id": "6",
+    "name": "Bizcochos Sancho Panza",
+    "image": "http://www.galletasangulo.com/wp-content/uploads/2018/07/logo1.png",
+    "link": "http://www.galletasangulo.com/en/"
+  },
+  {
+    "id": "7",
+    "name": "Nails Factory",
+    "image": "https://www.nailsfactory.es/docs/plantillas_logo_nails-factory8_636.png",
+    "link": "https://www.nailsfactory.es/"
+  },
+  {
+    "id": "8",
+    "name": "Huellas - Clínica Veterinaria",
+    "image": "https://clinicaveterinariahuellas.net/wp-content/uploads/2016/06/huellasLogo.png",
+    "link": "https://clinicaveterinariahuellas.net/"
+  },
+  {
+    "id": "9",
+    "name": "Cafeteria Triana",
+    "image": "/static/images/patrocinadores/Triana.png",
+    "link": "https://www.facebook.com/profile.php?id=100010506482475&slog=12779&seq=1006533114&rk=0&st=friend&fbtype=2048&tsid=0.7398412358015776&fref=search"
+  }
+  ,
+  {
+    "id": "10",
+    "name": "Deportes Decimas",
+    "image": "https://d321d41hgs2fyt.cloudfront.net/media/wysiwyg/footer/dcms.png",
+    "link": "https://www.decimas.es/"
+  }
+  ,
+  {
+    "id": "11",
+    "name": "Farmacia José Carlos Martí Vizcaíno",
+    "image": null,
+    "link": ""
+  }
+  ,
+  {
+    "id": "12",
+    "name": "Pastelería Pozo",
+    "image": "http://antiguapasteleriadelpozo.com/wp-content/uploads/2019/03/LOGO_ANTIGUA-PANADERI%CC%81A-DEL-POZO_Mesa-de-trabajo-1-1024x614-1.png",
+    "link": "http://antiguapasteleriadelpozo.com/"
   }
 ]

@@ -30524,7 +30524,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5CDELL%5CDesktop%5Ccueva-nextjs%5Cpages%5Cindex.js ***!
   \********************************************************************************************************************************/
@@ -30547,5 +30547,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[3,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

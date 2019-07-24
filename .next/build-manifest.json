@@ -15,14 +15,6 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/contacto": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/eventos": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
     "/galeria": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
@@ -36,10 +28,6 @@
       "static/runtime/main.js"
     ],
     "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/patrocinadores": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
