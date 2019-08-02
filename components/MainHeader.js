@@ -2,11 +2,13 @@ import React from "react";
 
 const MainHeader = () => (
   <div className="main-overview">
-      <h1 className="main-overview__text-h1">Cueva de Kün y Hebles</h1>
-      <h2 className="main-overview__text-h2">
-        Asociación Deportiva y Recreativa de Pinto
-      </h2>
 
+      <img className="cueva-logo" src="https://i.ibb.co/ZgF7nbc/logo.png" />
+
+    <h1 className="main-overview__text-h1">Cueva de Kün y Hebles</h1>
+    <h2 className="main-overview__text-h2">
+      Asociación Deportiva y Recreativa de Pinto
+    </h2>
 
     <style jsx>{`
 
@@ -14,6 +16,14 @@ const MainHeader = () => (
             font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
             src: https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700
         }
+
+      .cueva-logo {
+        position: absolute;
+        max-width: 220px;
+        padding-top: 40px;
+        padding-left: 0px;
+        opacity: 0.7;
+      }  
 
       .main-overview {
         background: url("https://i.ibb.co/jRcPgqs/bg6.jpg");
@@ -56,13 +66,24 @@ const MainHeader = () => (
           .main-overview__text-h1 {
             font-size: 2.5rem;
             opacity: 0.9;
+            display: none;
           }
         
           .main-overview__text-h2 {
             font-size: 1rem;
             opacity: 0.9;
             font-weight: 600;
+            display: none;
           }
+
+          .cueva-logo {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            opacity: 1;
+          }
+
+
 
       }
 

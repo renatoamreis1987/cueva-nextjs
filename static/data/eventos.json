@@ -19,5 +19,12 @@
     "fecha": "Fecha: 04/08/2018",
     "reglamento": "/eventos/evento-vi-carrera-nocturna",
     "galeria": null
+  },
+  {
+    "id": 4,
+    "evento": "VI San Pinteña",
+    "fecha": "Fecha: 23/12/2017",
+    "reglamento": "/eventos/evento-vi-san-pintena",
+    "galeria": null
   }
 ]

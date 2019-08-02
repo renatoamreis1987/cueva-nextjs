@@ -17,7 +17,7 @@ const eventovii = () => (
         <a href="/static/cartels/CARTEL-NOCTURNA-2018.jpeg" target="_blank">
           <img
             className="eventos-main__imagem"
-            src="/static/cartels/cartel-vii.jpeg"
+            src="/static/cartels/CARTEL-NOCTURNA-2018.jpeg"
           />
         </a>
       </div>

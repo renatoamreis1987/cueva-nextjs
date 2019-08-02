@@ -12,7 +12,7 @@ const Galeria = props => (
           className="patrocinadores-div patrocinadores-text"
         >
           <Link href={galeria.href}>
-            <a>
+            <a target="_blank">
               {galeria.evento === null ? (
                 <img
                   className="patrocinadores-div-img"
@@ -20,7 +20,7 @@ const Galeria = props => (
                   alt=""
                 />
               ) : (
-                <p>{galeria.evento}</p>
+                <p className="patrocinadores-text">{galeria.evento}</p>
               )}
             </a>
           </Link>
@@ -97,11 +97,18 @@ const Galeria = props => (
       }
 
       .patrocinadores-text {
-        font-weight: 500;
+        font-weight: 400;
         font-style: italic;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-align: center;
+        color: black;
       }
+
+      a {
+        text-decoration: none;
+        text-decoration: underline;
+
+        }
 
       .patrocinadores-div-img {
         max-width: 15rem;
