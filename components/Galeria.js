@@ -98,7 +98,7 @@ const Galeria = props => (
 
       .patrocinadores-text {
         font-weight: 400;
-        font-style: italic;
+        text-decoration: underline;
         font-size: 1.2rem;
         text-align: center;
         color: black;
@@ -106,7 +106,7 @@ const Galeria = props => (
 
       a {
         text-decoration: none;
-        text-decoration: underline;
+        
 
         }
 
