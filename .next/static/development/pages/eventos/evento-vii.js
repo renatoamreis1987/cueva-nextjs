@@ -1,56 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
-
-/***/ "./components/HeadComponent.js":
-/*!*************************************!*\
-  !*** ./components/HeadComponent.js ***!
-  \*************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/renatoamreis/Desktop/cueva-nextjs/components/HeadComponent.js";
-
-
-
-function HeadComponent() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "Cueva de Kun y Hebles"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    key: "viewport",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (HeadComponent);
-
-/***/ }),
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/eventos/evento-vii.js"],{
 
 /***/ "./components/MainFooter.js":
 /*!**********************************!*\
@@ -148,203 +96,6 @@ var MainHeader = function MainHeader() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (MainHeader);
-
-/***/ }),
-
-/***/ "./components/MainInfo.js":
-/*!********************************!*\
-  !*** ./components/MainInfo.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/home/renatoamreis/Desktop/cueva-nextjs/components/MainInfo.js";
-
-
-
-
-var MainInfo = function MainInfo() {
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-info container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-info__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, "Eventos")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-info__eventos-image",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "./images/eventos/cartel.jpeg",
-    target: "_blank",
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "http://www.cuevakunyhebles.com/wp-content/uploads/2019/05/cartel.jpeg",
-    alt: "",
-    className: "jsx-3826032540" + " " + "main-info__eventos-image-img ",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-info__eventos-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "VII Carrera Nocturna"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "por el centro peninsular"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "3 de Agosto de 2019"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/eventos/evento-vii",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    className: "jsx-3826032540" + " " + "main-info__button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "M\xE1s Informacion"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-unete__title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, "\xDAnete")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-3826032540" + " " + "main-unete__div",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\xBFTE GUSTA EL DEPORTE?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "\xBFTE GUSTA PARTICIPAR EN ACTIVIDADES CULTURALES Y DEPORTIVAS?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "\xBFTE GUSTA VIAJAR?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "\xBFTE GUSTA COMPARTIR?"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-3826032540" + " " + "main-unete__div-underline",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "\xDANETE A NOSOTROS Y DISFRUTA"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
-    className: "jsx-3826032540",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("button", {
-    type: "button",
-    className: "jsx-3826032540" + " " + "main-unete__div-button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Formulario de Contacto")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3826032540",
-    __self: this
-  }, "@font-face{font-family:\"Montserrat\",\"Helvetica Neue\",Arial,sans-serif;}.container.jsx-3826032540{max-width:960px;margin-bottom:50px;}.main-info.jsx-3826032540{font-family:\"Montserrat\",\"Helvetica Neue\",Arial,sans-serif;display:grid;justify-self:center;grid-template-rows:auto 85%;grid-template-columns:auto auto auto;grid-column-gap:15px;grid-row-gap:15px;grid-template-areas:\"next-event-1 next-event-1 unete-1\" \"event-content-1 event-content-2 unete-content-1\";margin-left:auto;margin-right:auto;}.main-info__title.jsx-3826032540{text-align:center;grid-area:next-event-1;color:#f96332;-webkit-transform:translateY(1rem);-ms-transform:translateY(1rem);transform:translateY(1rem);}.main-info__title.jsx-3826032540 h1.jsx-3826032540{margin-bottom:0;}.main-info__eventos-image.jsx-3826032540{grid-area:event-content-1;justify-self:center;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;padding-top:1rem;}.main-info__button.jsx-3826032540{margin-top:1.8rem;}.main-info__eventos-image-img.jsx-3826032540{max-height:25rem;border-radius:0.1875rem;}.main-info__eventos-content.jsx-3826032540{text-align:center;grid-area:event-content-2;justify-self:center;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.main-info__eventos-content.jsx-3826032540 h1.jsx-3826032540{text-align:center;}.main-info__eventos-content.jsx-3826032540 h2.jsx-3826032540{text-align:center;font-weight:600;font-size:1rem;}.main-info__eventos-content.jsx-3826032540 p.jsx-3826032540{text-align:justify;}.main-unete__title.jsx-3826032540{text-align:center;color:#f96332;grid-area:unete-1;-webkit-transform:translateY(1rem);-ms-transform:translateY(1rem);transform:translateY(1rem);z-index:3000;}.main-unete__title.jsx-3826032540 h1.jsx-3826032540{margin-bottom:0;}.main-unete__div.jsx-3826032540{text-align:center;background:linear-gradient( 180deg, #f96332 0%, rgba(255,255,255,1) 100% );grid-area:unete-content-1;border-radius:0.8rem;z-index:10;margin-bottom:20px;}.main-unete__div.jsx-3826032540 p.jsx-3826032540{color:black;margin-top:2rem;font-weight:700;font-size:1rem;}.main-unete__div-underline.jsx-3826032540{-webkit-text-decoration:underline;text-decoration:underline;}button.jsx-3826032540{border-width:2px;font-weight:400;font-size:0.8571em;font-family:inherit;border:none;border-radius:0.1875rem;padding:11px 22px;cursor:pointer;background-color:#f96332;color:#ffffff;}button.jsx-3826032540:hover{background-color:#fa865f;}@media (max-width:950px){.container.jsx-3826032540{max-width:800px;}.main-info.jsx-3826032540{display:grid;grid-area:main-one;justify-self:center;grid-template-rows:auto auto auto auto auto auto;grid-template-columns:100%;grid-column-gap:15px;grid-row-gap:15px;grid-template-areas:\"next-event-1\" \"event-content-1\" \"event-content-2\" \"unete-1\" \"unete-content-1\";margin-top:10px;}.main-info__eventos-content.jsx-3826032540 p.jsx-3826032540{margin:0.5rem 2rem;}.main-info__button.jsx-3826032540{margin-top:0rem;}.main-unete__title.jsx-3826032540{-webkit-transform:translateY(1rem);-ms-transform:translateY(1rem);transform:translateY(1rem);}.main-unete__div.jsx-3826032540{margin:0 1rem 1rem 1rem;padding:0.1rem 1rem;}.main-unete__div.jsx-3826032540 p.jsx-3826032540{color:black;font-size:1rem;font-weight:700;}.main-unete__div.jsx-3826032540 p.jsx-3826032540:last-of-type{-webkit-text-decoration:underline;text-decoration:underline;}.main-unete__div.jsx-3826032540 button.jsx-3826032540{border-width:2px;font-weight:400;font-size:0.8571em;font-family:inherit;border:none;border-radius:0.1875rem;padding:11px 22px;cursor:pointer;background-color:#f96332;color:white;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JlbmF0b2FtcmVpcy9EZXNrdG9wL2N1ZXZhLW5leHRqcy9jb21wb25lbnRzL01haW5JbmZvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXlDa0IsQUFJdUUsQUFLN0MsQUFLK0MsQUFjNUMsQUFPRixBQUlVLEFBUTdCLEFBR29CLEFBTUMsQUFPQSxBQUlBLEFBTUMsQUFJRCxBQVFGLEFBSUUsQUFhTixBQU9jLEFBSVQsQUFlUSxBQU1QLEFBS0gsQUFhTSxBQUt4QixBQUdnQyxBQUlILEFBS1osQUFNYyxBQUlULFlBNUVILEFBbUVDLENBOUJJLEdBbElILEFBMEJwQixBQWtEQSxBQWlERSxBQXNCRixDQXpHMEIsQUE4RFIsQUFrRUUsQ0F2SkssQUFrQnpCLEFBVTRCLEFBTzVCLEFBSWtCLEFBVUYsQUFnQmIsQ0FwQkgsQUErRUUsS0FZc0IsQ0FwQ3hCLENBekZzQixDQW1JRixDQW5FRixJQXpCRSxBQThESSxDQTFCSCxBQWtFRSxDQWhITixDQTFEakIsTUFtQmdCLEFBdUJoQixFQXVIRSxDQWxIb0IsQUErQ0wsQUE2RGYsRUE3SGtCLEdBNkJwQixDQVU2QixFQW9DUCxBQTJCK0IsQUF1QzdCLEdBdkpLLElBekI5QixBQUFDLEFBVWUsQUEwRmYsQ0FJQSxBQWtFRSxJQXJIa0IsUUExQ0UsQUFzR1IsQUFrRUUsWUFqRVUsQUFrRUUsUUF4S0UsQ0E2RUYsQUFrRTFCLFFBakI2QixPQXZCWCxBQWtFRSxTQWpKSCxFQXNESSxDQTdFZ0IsTUF1R3RCLEFBa0VFLEVBM0NNLE1BdEd6QixDQWlCQSxLQXFDYSxDQTBCYyxBQWtFRSxFQTVHZCxLQWpEZixDQWtIc0IsRUFoREQsS0FoQnJCLENBOUR1QixTQXdHUCxBQWtFQSxDQTNDdUYsR0FoRHZHLFFBOUVvQixBQTBLbEIsRUFsRUYsZ0JBdkc0RyxzRUE4SHhGLGdCQUNsQixvQkE5SGlCLGlCQUNDLGtCQUNwQiIsImZpbGUiOiIvaG9tZS9yZW5hdG9hbXJlaXMvRGVza3RvcC9jdWV2YS1uZXh0anMvY29tcG9uZW50cy9NYWluSW5mby5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbmltcG9ydCBMaW5rIGZyb20gXCJuZXh0L2xpbmtcIjtcblxuY29uc3QgTWFpbkluZm8gPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtYWluLWluZm8gY29udGFpbmVyXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW4taW5mb19fdGl0bGVcIj5cbiAgICAgICAgPGgxPkV2ZW50b3M8L2gxPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW4taW5mb19fZXZlbnRvcy1pbWFnZVwiPlxuICAgICAgICA8YSBocmVmPVwiLi9pbWFnZXMvZXZlbnRvcy9jYXJ0ZWwuanBlZ1wiIHRhcmdldD1cIl9ibGFua1wiIC8+XG4gICAgICAgIDxpbWdcbiAgICAgICAgICBjbGFzc05hbWU9XCJtYWluLWluZm9fX2V2ZW50b3MtaW1hZ2UtaW1nIFwiXG4gICAgICAgICAgc3JjPVwiaHR0cDovL3d3dy5jdWV2YWt1bnloZWJsZXMuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE5LzA1L2NhcnRlbC5qcGVnXCJcbiAgICAgICAgICBhbHQ9XCJcIlxuICAgICAgICAvPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW4taW5mb19fZXZlbnRvcy1jb250ZW50XCI+XG4gICAgICAgIDxoMT5WSUkgQ2FycmVyYSBOb2N0dXJuYTwvaDE+XG4gICAgICAgIDxoMT5wb3IgZWwgY2VudHJvIHBlbmluc3VsYXI8L2gxPlxuICAgICAgICA8aDI+MyBkZSBBZ29zdG8gZGUgMjAxOTwvaDI+XG4gICAgICAgIDxiciAvPlxuICAgICAgICA8TGluayBocmVmPVwiL2V2ZW50b3MvZXZlbnRvLXZpaVwiPlxuICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPVwibWFpbi1pbmZvX19idXR0b25cIj5Nw6FzIEluZm9ybWFjaW9uPC9idXR0b24+XG4gICAgICAgIDwvTGluaz5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluLXVuZXRlX190aXRsZVwiPlxuICAgICAgICA8aDE+w5puZXRlPC9oMT5cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWluLXVuZXRlX19kaXZcIj5cbiAgICAgICAgPHA+wr9URSBHVVNUQSBFTCBERVBPUlRFPzwvcD5cbiAgICAgICAgPHA+wr9URSBHVVNUQSBQQVJUSUNJUEFSIEVOIEFDVElWSURBREVTIENVTFRVUkFMRVMgWSBERVBPUlRJVkFTPzwvcD5cbiAgICAgICAgPHA+wr9URSBHVVNUQSBWSUFKQVI/PC9wPlxuICAgICAgICA8cD7Cv1RFIEdVU1RBIENPTVBBUlRJUj88L3A+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cIm1haW4tdW5ldGVfX2Rpdi11bmRlcmxpbmVcIj7Dmk5FVEUgQSBOT1NPVFJPUyBZIERJU0ZSVVRBPC9wPlxuICAgICAgICA8YnIgLz5cbiAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJtYWluLXVuZXRlX19kaXYtYnV0dG9uXCIgdHlwZT1cImJ1dHRvblwiPlxuICAgICAgICAgIEZvcm11bGFyaW8gZGUgQ29udGFjdG9cbiAgICAgICAgPC9idXR0b24+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPHN0eWxlIGpzeD57YFxuXG4gICAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICBmb250LWZhbWlseTogXCJNb250c2VycmF0XCIsIFwiSGVsdmV0aWNhIE5ldWVcIiwgQXJpYWwsIHNhbnMtc2VyaWY7XG4gICAgICAgIHNyYzogaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1vbnRzZXJyYXQ6NDAwLDUwMCw2MDAsNzAwXG4gICAgICAgIH1cblxuICAgICAgICAuY29udGFpbmVyIHtcbiAgICAgICAgIG1heC13aWR0aDogOTYwcHg7XG4gICAgICAgICBtYXJnaW4tYm90dG9tOiA1MHB4O1xuICAgICAgICB9XG5cbiAgICAgICAgLm1haW4taW5mbyB7XG4gICAgICAgICAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdFwiLCBcIkhlbHZldGljYSBOZXVlXCIsIEFyaWFsLCBzYW5zLXNlcmlmO1xuICAgICAgICAgIC8qIGJhY2tncm91bmQ6OyAqL1xuICAgICAgICAgIGRpc3BsYXk6IGdyaWQ7XG4gICAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXI7XG4gICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1yb3dzOiBhdXRvIDg1JTtcbiAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IGF1dG8gYXV0byBhdXRvO1xuICAgICAgICAgIGdyaWQtY29sdW1uLWdhcDogMTVweDtcbiAgICAgICAgICBncmlkLXJvdy1nYXA6IDE1cHg7XG4gICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1hcmVhczogXCJuZXh0LWV2ZW50LTEgbmV4dC1ldmVudC0xIHVuZXRlLTFcIiBcImV2ZW50LWNvbnRlbnQtMSBldmVudC1jb250ZW50LTIgdW5ldGUtY29udGVudC0xXCI7XG4gICAgICAgICAgbWFyZ2luLWxlZnQ6IGF1dG87XG4gICAgICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgICB9XG5cbiAgICAgICAgLm1haW4taW5mb19fdGl0bGUge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICBncmlkLWFyZWE6IG5leHQtZXZlbnQtMTtcbiAgICAgICAgICBjb2xvcjogI2Y5NjMzMjtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXJlbSk7XG4gICAgICAgIH1cblxuICAgICAgICAubWFpbi1pbmZvX190aXRsZSBoMSB7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLWluZm9fX2V2ZW50b3MtaW1hZ2Uge1xuICAgICAgICAgIGdyaWQtYXJlYTogZXZlbnQtY29udGVudC0xO1xuICAgICAgICAgIGp1c3RpZnktc2VsZjogY2VudGVyO1xuICAgICAgICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgICAgICAgICBwYWRkaW5nLXRvcDogMXJlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLWluZm9fX2J1dHRvbiB7XG4gICAgICAgICAgICBtYXJnaW4tdG9wOiAxLjhyZW1cbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLWluZm9fX2V2ZW50b3MtaW1hZ2UtaW1nIHtcbiAgICAgICAgICBtYXgtaGVpZ2h0OiAyNXJlbTtcbiAgICAgICAgICAvKiBtYXgtd2lkdGg6IDIwcmVtOyAqL1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDAuMTg3NXJlbTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLWluZm9fX2V2ZW50b3MtY29udGVudCB7XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIGdyaWQtYXJlYTogZXZlbnQtY29udGVudC0yO1xuICAgICAgICAgIGp1c3RpZnktc2VsZjogY2VudGVyO1xuICAgICAgICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLWluZm9fX2V2ZW50b3MtY29udGVudCBoMSB7XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICB9XG5cbiAgICAgICAgLm1haW4taW5mb19fZXZlbnRvcy1jb250ZW50IGgyIHtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDYwMDtcbiAgICAgICAgICBmb250LXNpemU6IDFyZW07XG4gICAgICAgIH1cblxuICAgICAgICAubWFpbi1pbmZvX19ldmVudG9zLWNvbnRlbnQgcCB7XG4gICAgICAgICAgdGV4dC1hbGlnbjoganVzdGlmeTtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLXVuZXRlX190aXRsZSB7XG4gICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIGNvbG9yOiAjZjk2MzMyO1xuICAgICAgICAgIGdyaWQtYXJlYTogdW5ldGUtMTtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXJlbSk7XG4gICAgICAgICAgei1pbmRleDogMzAwMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLXVuZXRlX190aXRsZSBoMSB7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLXVuZXRlX19kaXYge1xuICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQoXG4gICAgICAgICAgICAxODBkZWcsXG4gICAgICAgICAgICAjZjk2MzMyIDAlLFxuICAgICAgICAgICAgcmdiYSgyNTUsIDI1NSwgMjU1LCAxKSAxMDAlXG4gICAgICAgICAgKTtcbiAgICAgICAgICBncmlkLWFyZWE6IHVuZXRlLWNvbnRlbnQtMTtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAwLjhyZW07XG4gICAgICAgICAgei1pbmRleDogMTA7XG4gICAgICAgICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICAgICAgfVxuXG4gICAgICAgIC5tYWluLXVuZXRlX19kaXYgcCB7XG4gICAgICAgICAgY29sb3I6IGJsYWNrO1xuICAgICAgICAgIG1hcmdpbi10b3A6IDJyZW07XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICAgICAgICBmb250LXNpemU6IDFyZW07XG4gICAgICAgIH1cblxuICAgICAgICAubWFpbi11bmV0ZV9fZGl2LXVuZGVybGluZSB7XG4gICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XG4gICAgICAgIH1cblxuICAgICAgICBidXR0b24ge1xuICAgICAgICAgIGJvcmRlci13aWR0aDogMnB4O1xuICAgICAgICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG4gICAgICAgICAgZm9udC1zaXplOiAwLjg1NzFlbTtcbiAgICAgICAgICBmb250LWZhbWlseTogaW5oZXJpdDtcbiAgICAgICAgICAvKiBsaW5lLWhlaWdodDogMS4zNWVtOyAqL1xuICAgICAgICAgIC8qIG1hcmdpbjogMTBweCAxcHg7ICovXG4gICAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDAuMTg3NXJlbTtcbiAgICAgICAgICBwYWRkaW5nOiAxMXB4IDIycHg7XG4gICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmOTYzMzI7XG4gICAgICAgICAgY29sb3I6ICNmZmZmZmY7XG4gICAgICAgIH1cblxuICAgICAgICBidXR0b246aG92ZXIge1xuICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmYTg2NWY7XG4gICAgICAgIH1cblxuICAgICAgICBAbWVkaWEgKG1heC13aWR0aDogOTUwcHgpIHtcblxuICAgICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgICAgbWF4LXdpZHRoOiA4MDBweDtcbiAgICAgICAgICB9XG5cbiAgICAgICAgICAubWFpbi1pbmZvIHtcbiAgICAgICAgICAgIC8qIGJhY2tncm91bmQ6OyAqL1xuICAgICAgICAgICAgZGlzcGxheTogZ3JpZDtcbiAgICAgICAgICAgIGdyaWQtYXJlYTogbWFpbi1vbmU7XG4gICAgICAgICAgICBqdXN0aWZ5LXNlbGY6IGNlbnRlcjtcbiAgICAgICAgICAgIC8qIGFsaWduLXNlbGY6IGNlbnRlcjsgKi9cbiAgICAgICAgICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0byBhdXRvIGF1dG8gYXV0byBhdXRvIGF1dG87XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDEwMCU7XG4gICAgICAgICAgICBncmlkLWNvbHVtbi1nYXA6IDE1cHg7XG4gICAgICAgICAgICBncmlkLXJvdy1nYXA6IDE1cHg7XG4gICAgICAgICAgICBncmlkLXRlbXBsYXRlLWFyZWFzOiBcIm5leHQtZXZlbnQtMVwiIFwiZXZlbnQtY29udGVudC0xXCIgXCJldmVudC1jb250ZW50LTJcIiBcInVuZXRlLTFcIiBcInVuZXRlLWNvbnRlbnQtMVwiO1xuICAgICAgICAgICAgbWFyZ2luLXRvcDogMTBweDtcbiAgICAgICAgICB9XG4gICAgICAgIFxuICAgICAgICAgIC5tYWluLWluZm9fX2V2ZW50b3MtY29udGVudCBwIHtcbiAgICAgICAgICAgIG1hcmdpbjogMC41cmVtIDJyZW07XG4gICAgICAgICAgfVxuXG4gICAgICAgICAgLm1haW4taW5mb19fYnV0dG9uIHtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDByZW1cbiAgICAgICAgfVxuICAgICAgICBcbiAgICAgICAgICAubWFpbi11bmV0ZV9fdGl0bGUge1xuICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDFyZW0pO1xuICAgICAgICAgIH1cbiAgICAgICAgXG4gICAgICAgICAgLm1haW4tdW5ldGVfX2RpdiB7XG4gICAgICAgICAgICBtYXJnaW46IDAgMXJlbSAxcmVtIDFyZW07XG4gICAgICAgICAgICBwYWRkaW5nOiAwLjFyZW0gMXJlbTtcbiAgICAgICAgICB9XG4gICAgICAgIFxuICAgICAgICAgIC5tYWluLXVuZXRlX19kaXYgcCB7XG4gICAgICAgICAgICBjb2xvcjogYmxhY2s7XG4gICAgICAgICAgICBmb250LXNpemU6IDFyZW07XG4gICAgICAgICAgICBmb250LXdlaWdodDogNzAwO1xuICAgICAgICAgIH1cbiAgICAgICAgXG4gICAgICAgICAgLm1haW4tdW5ldGVfX2RpdiBwOmxhc3Qtb2YtdHlwZSB7XG4gICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgICAgICAgICB9XG4gICAgICAgIFxuICAgICAgICAgIC5tYWluLXVuZXRlX19kaXYgYnV0dG9uIHtcbiAgICAgICAgICAgIGJvcmRlci13aWR0aDogMnB4O1xuICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMC44NTcxZW07XG4gICAgICAgICAgICBmb250LWZhbWlseTogaW5oZXJpdDtcbiAgICAgICAgICAgIC8qIGxpbmUtaGVpZ2h0OiAxLjM1ZW07ICovXG4gICAgICAgICAgICAvKiBtYXJnaW46IDEwcHggMXB4OyAqL1xuICAgICAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMC4xODc1cmVtO1xuICAgICAgICAgICAgcGFkZGluZzogMTFweCAyMnB4O1xuICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Y5NjMzMjtcbiAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICB9XG5cbiAgICAgICAgfVxuXG5cbiAgICAgIGB9PC9zdHlsZT5cbiAgICA8L2Rpdj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IE1haW5JbmZvO1xuIl19 */\n/*@ sourceURL=/home/renatoamreis/Desktop/cueva-nextjs/components/MainInfo.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (MainInfo);
 
 /***/ }),
 
@@ -730,17 +481,6 @@ function SimpleMenu() {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/array/from */ "./node_modules/core-js/library/fn/array/from.js");
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js":
 /*!***********************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js ***!
@@ -760,17 +500,6 @@ module.exports = __webpack_require__(/*! core-js/library/fn/array/is-array */ ".
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/get-iterator */ "./node_modules/core-js/library/fn/get-iterator.js");
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! core-js/library/fn/is-iterable */ "./node_modules/core-js/library/fn/is-iterable.js");
 
 /***/ }),
 
@@ -1036,51 +765,6 @@ function _arrayWithHoles(arr) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _arrayWithoutHoles; });
-/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/is-array */ "./node_modules/@babel/runtime-corejs2/core-js/array/is-array.js");
-/* harmony import */ var _core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0__);
-
-function _arrayWithoutHoles(arr) {
-  if (_core_js_array_is_array__WEBPACK_IMPORTED_MODULE_0___default()(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) {
-      arr2[i] = arr[i];
-    }
-
-    return arr2;
-  }
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js ***!
-  \**********************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _assertThisInitialized; });
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js":
 /*!*****************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js ***!
@@ -1184,85 +868,6 @@ function _createClass(Constructor, protoProps, staticProps) {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _getPrototypeOf; });
-/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js");
-/* harmony import */ var _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1__);
-
-
-function _getPrototypeOf(o) {
-  _getPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_1___default.a ? _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a : function _getPrototypeOf(o) {
-    return o.__proto__ || _core_js_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_0___default()(o);
-  };
-  return _getPrototypeOf(o);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js ***!
-  \*********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _inherits; });
-/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/create */ "./node_modules/@babel/runtime-corejs2/core-js/object/create.js");
-/* harmony import */ var _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_create__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js");
-
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = _core_js_object_create__WEBPACK_IMPORTED_MODULE_0___default()(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
-    }
-  });
-  if (superClass) Object(_setPrototypeOf__WEBPACK_IMPORTED_MODULE_1__["default"])(subClass, superClass);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js":
-/*!****************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js ***!
-  \****************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _iterableToArray; });
-/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/array/from */ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js");
-/* harmony import */ var _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_array_from__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/is-iterable */ "./node_modules/@babel/runtime-corejs2/core-js/is-iterable.js");
-/* harmony import */ var _core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1__);
-
-
-function _iterableToArray(iter) {
-  if (_core_js_is_iterable__WEBPACK_IMPORTED_MODULE_1___default()(Object(iter)) || Object.prototype.toString.call(iter) === "[object Arguments]") return _core_js_array_from__WEBPACK_IMPORTED_MODULE_0___default()(iter);
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js":
 /*!*********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArrayLimit.js ***!
@@ -1320,70 +925,6 @@ function _nonIterableRest() {
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableSpread; });
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js":
-/*!**************************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js ***!
-  \**************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _possibleConstructorReturn; });
-/* harmony import */ var _helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js");
-/* harmony import */ var _assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
-
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (Object(_helpers_esm_typeof__WEBPACK_IMPORTED_MODULE_0__["default"])(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return Object(_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__["default"])(self);
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/setPrototypeOf.js ***!
-  \***************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _setPrototypeOf; });
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/set-prototype-of */ "./node_modules/@babel/runtime-corejs2/core-js/object/set-prototype-of.js");
-/* harmony import */ var _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0__);
-
-function _setPrototypeOf(o, p) {
-  _setPrototypeOf = _core_js_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_0___default.a || function _setPrototypeOf(o, p) {
-    o.__proto__ = p;
-    return o;
-  };
-
-  return _setPrototypeOf(o, p);
-}
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js":
 /*!**************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js ***!
@@ -1402,63 +943,6 @@ __webpack_require__.r(__webpack_exports__);
 
 function _slicedToArray(arr, i) {
   return Object(_arrayWithHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArrayLimit__WEBPACK_IMPORTED_MODULE_1__["default"])(arr, i) || Object(_nonIterableRest__WEBPACK_IMPORTED_MODULE_2__["default"])();
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js":
-/*!******************************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js ***!
-  \******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _toConsumableArray; });
-/* harmony import */ var _arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./arrayWithoutHoles */ "./node_modules/@babel/runtime-corejs2/helpers/esm/arrayWithoutHoles.js");
-/* harmony import */ var _iterableToArray__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./iterableToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/iterableToArray.js");
-/* harmony import */ var _nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nonIterableSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/nonIterableSpread.js");
-
-
-
-function _toConsumableArray(arr) {
-  return Object(_arrayWithoutHoles__WEBPACK_IMPORTED_MODULE_0__["default"])(arr) || Object(_iterableToArray__WEBPACK_IMPORTED_MODULE_1__["default"])(arr) || Object(_nonIterableSpread__WEBPACK_IMPORTED_MODULE_2__["default"])();
-}
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _typeof; });
-/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/symbol/iterator */ "./node_modules/@babel/runtime-corejs2/core-js/symbol/iterator.js");
-/* harmony import */ var _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/symbol */ "./node_modules/@babel/runtime-corejs2/core-js/symbol.js");
-/* harmony import */ var _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_symbol__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-function _typeof2(obj) { if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && typeof _core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && _typeof2(_core_js_symbol_iterator__WEBPACK_IMPORTED_MODULE_0___default.a) === "symbol") {
-    _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    _typeof = function _typeof(obj) {
-      return obj && typeof _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a === "function" && obj.constructor === _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a && obj !== _core_js_symbol__WEBPACK_IMPORTED_MODULE_1___default.a.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
 }
 
 /***/ }),
@@ -13369,20 +12853,6 @@ function toVal(mix) {
 
 /***/ }),
 
-/***/ "./node_modules/core-js/library/fn/array/from.js":
-/*!*******************************************************!*\
-  !*** ./node_modules/core-js/library/fn/array/from.js ***!
-  \*******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
-__webpack_require__(/*! ../../modules/es6.array.from */ "./node_modules/core-js/library/modules/es6.array.from.js");
-module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/core-js/library/modules/_core.js").Array.from;
-
-
-/***/ }),
-
 /***/ "./node_modules/core-js/library/fn/array/is-array.js":
 /*!***********************************************************!*\
   !*** ./node_modules/core-js/library/fn/array/is-array.js ***!
@@ -13406,20 +12876,6 @@ module.exports = __webpack_require__(/*! ../../modules/_core */ "./node_modules/
 __webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
 __webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
 module.exports = __webpack_require__(/*! ../modules/core.get-iterator */ "./node_modules/core-js/library/modules/core.get-iterator.js");
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/fn/is-iterable.js":
-/*!********************************************************!*\
-  !*** ./node_modules/core-js/library/fn/is-iterable.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(/*! ../modules/web.dom.iterable */ "./node_modules/core-js/library/modules/web.dom.iterable.js");
-__webpack_require__(/*! ../modules/es6.string.iterator */ "./node_modules/core-js/library/modules/es6.string.iterator.js");
-module.exports = __webpack_require__(/*! ../modules/core.is-iterable */ "./node_modules/core-js/library/modules/core.is-iterable.js");
 
 
 /***/ }),
@@ -14157,26 +13613,6 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 
 var core = module.exports = { version: '2.6.9' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/modules/_create-property.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/_create-property.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var $defineProperty = __webpack_require__(/*! ./_object-dp */ "./node_modules/core-js/library/modules/_object-dp.js");
-var createDesc = __webpack_require__(/*! ./_property-desc */ "./node_modules/core-js/library/modules/_property-desc.js");
-
-module.exports = function (object, index, value) {
-  if (index in object) $defineProperty.f(object, index, createDesc(0, value));
-  else object[index] = value;
-};
 
 
 /***/ }),
@@ -15975,76 +15411,6 @@ module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/libr
   if (typeof iterFn != 'function') throw TypeError(it + ' is not iterable!');
   return anObject(iterFn.call(it));
 };
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/modules/core.is-iterable.js":
-/*!******************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/core.is-iterable.js ***!
-  \******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var classof = __webpack_require__(/*! ./_classof */ "./node_modules/core-js/library/modules/_classof.js");
-var ITERATOR = __webpack_require__(/*! ./_wks */ "./node_modules/core-js/library/modules/_wks.js")('iterator');
-var Iterators = __webpack_require__(/*! ./_iterators */ "./node_modules/core-js/library/modules/_iterators.js");
-module.exports = __webpack_require__(/*! ./_core */ "./node_modules/core-js/library/modules/_core.js").isIterable = function (it) {
-  var O = Object(it);
-  return O[ITERATOR] !== undefined
-    || '@@iterator' in O
-    // eslint-disable-next-line no-prototype-builtins
-    || Iterators.hasOwnProperty(classof(O));
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/core-js/library/modules/es6.array.from.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/core-js/library/modules/es6.array.from.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var ctx = __webpack_require__(/*! ./_ctx */ "./node_modules/core-js/library/modules/_ctx.js");
-var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
-var toObject = __webpack_require__(/*! ./_to-object */ "./node_modules/core-js/library/modules/_to-object.js");
-var call = __webpack_require__(/*! ./_iter-call */ "./node_modules/core-js/library/modules/_iter-call.js");
-var isArrayIter = __webpack_require__(/*! ./_is-array-iter */ "./node_modules/core-js/library/modules/_is-array-iter.js");
-var toLength = __webpack_require__(/*! ./_to-length */ "./node_modules/core-js/library/modules/_to-length.js");
-var createProperty = __webpack_require__(/*! ./_create-property */ "./node_modules/core-js/library/modules/_create-property.js");
-var getIterFn = __webpack_require__(/*! ./core.get-iterator-method */ "./node_modules/core-js/library/modules/core.get-iterator-method.js");
-
-$export($export.S + $export.F * !__webpack_require__(/*! ./_iter-detect */ "./node_modules/core-js/library/modules/_iter-detect.js")(function (iter) { Array.from(iter); }), 'Array', {
-  // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
-  from: function from(arrayLike /* , mapfn = undefined, thisArg = undefined */) {
-    var O = toObject(arrayLike);
-    var C = typeof this == 'function' ? this : Array;
-    var aLen = arguments.length;
-    var mapfn = aLen > 1 ? arguments[1] : undefined;
-    var mapping = mapfn !== undefined;
-    var index = 0;
-    var iterFn = getIterFn(O);
-    var length, result, step, iterator;
-    if (mapping) mapfn = ctx(mapfn, aLen > 2 ? arguments[2] : undefined, 2);
-    // if object isn't iterable or it's array with default iterator - use simple case
-    if (iterFn != undefined && !(C == Array && isArrayIter(iterFn))) {
-      for (iterator = iterFn.call(O), result = new C(); !(step = iterator.next()).done; index++) {
-        createProperty(result, index, mapping ? call(iterator, mapfn, [step.value, index], true) : step.value);
-      }
-    } else {
-      length = toLength(O.length);
-      for (result = new C(length); length > index; index++) {
-        createProperty(result, index, mapping ? mapfn(O[index], index) : O[index]);
-      }
-    }
-    result.length = index;
-    return result;
-  }
-});
 
 
 /***/ }),
@@ -21570,300 +20936,6 @@ function _inheritsLoose(subClass, superClass) {
 
 /***/ }),
 
-/***/ "./node_modules/next-server/dist/lib/amp.js":
-/*!**************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/amp.js ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
-
-function isAmp() {
-  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-      _ref$enabled = _ref.enabled,
-      enabled = _ref$enabled === void 0 ? false : _ref$enabled,
-      _ref$hybrid = _ref.hybrid,
-      hybrid = _ref$hybrid === void 0 ? false : _ref$hybrid,
-      _ref$hasQuery = _ref.hasQuery,
-      hasQuery = _ref$hasQuery === void 0 ? false : _ref$hasQuery;
-
-  return enabled && (!hybrid || hybrid && hasQuery);
-}
-
-exports.isAmp = isAmp;
-
-function useAmp() {
-  var ampMode = react_1.default.useContext(amphtml_context_1.AmpModeContext); // un-comment below to not be considered AMP in dirty mode
-
-  return isAmp(ampMode); // && ampMode.hasQuery
-}
-
-exports.useAmp = useAmp;
-
-function withAmp(Component) {
-  var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
-      _ref2$hybrid = _ref2.hybrid,
-      hybrid = _ref2$hybrid === void 0 ? false : _ref2$hybrid;
-
-  function WithAmpWrapper() {
-    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-    var ampMode = react_1.default.useContext(amphtml_context_1.AmpModeContext);
-    ampMode.enabled = true;
-    ampMode.hybrid = hybrid;
-    return react_1.default.createElement(Component, props);
-  }
-
-  WithAmpWrapper.__nextAmpOnly = !hybrid;
-  WithAmpWrapper.getInitialProps = Component.getInitialProps;
-  return WithAmpWrapper;
-}
-
-exports.withAmp = withAmp;
-
-/***/ }),
-
-/***/ "./node_modules/next-server/dist/lib/amphtml-context.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/amphtml-context.js ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importStar = void 0 && (void 0).__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.AmpModeContext = React.createContext({});
-
-/***/ }),
-
-/***/ "./node_modules/next-server/dist/lib/head-manager-context.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/head-manager-context.js ***!
-  \*******************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importStar = void 0 && (void 0).__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.HeadManagerContext = React.createContext(null);
-
-/***/ }),
-
-/***/ "./node_modules/next-server/dist/lib/head.js":
-/*!***************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/head.js ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
-
-var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next-server/dist/lib/side-effect.js"));
-
-var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
-
-var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next-server/dist/lib/head-manager-context.js");
-
-var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next-server/dist/lib/amp.js");
-
-function defaultHead() {
-  var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'next-head';
-  var isAmp = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
-  var head = [react_1.default.createElement("meta", {
-    key: "charSet",
-    charSet: "utf-8",
-    className: className
-  })];
-
-  if (!isAmp) {
-    head.push(react_1.default.createElement("meta", {
-      key: "viewport",
-      name: "viewport",
-      content: "width=device-width,minimum-scale=1,initial-scale=1",
-      className: className
-    }));
-  }
-
-  return head;
-}
-
-exports.defaultHead = defaultHead;
-
-function onlyReactElement(list, child) {
-  // React children can be "string" or "number" in this case we ignore them for backwards compat
-  if (typeof child === "string" || typeof child === "number") {
-    return list;
-  } // Adds support for React.Fragment
-
-
-  if (child.type === react_1.default.Fragment) {
-    return list.concat(react_1.default.Children.toArray(child.props.children).reduce(function (fragmentList, fragmentChild) {
-      if (typeof fragmentChild === "string" || typeof fragmentChild === "number") {
-        return fragmentList;
-      }
-
-      return fragmentList.concat(fragmentChild);
-    }, []));
-  }
-
-  return list.concat(child);
-}
-
-var METATYPES = ["name", "httpEquiv", "charSet", "viewport", "itemProp"];
-/*
- returns a function for filtering head child elements
- which shouldn't be duplicated, like <title/>
- Also adds support for deduplicated `key` properties
-*/
-
-function unique() {
-  var keys = new _set.default();
-  var tags = new _set.default();
-  var metaTypes = new _set.default();
-  var metaCategories = {};
-  return function (h) {
-    if (h.key && typeof h.key !== 'number' && h.key.indexOf(".$") === 0) {
-      if (keys.has(h.key)) return false;
-      keys.add(h.key);
-      return true;
-    }
-
-    switch (h.type) {
-      case "title":
-      case "base":
-        if (tags.has(h.type)) return false;
-        tags.add(h.type);
-        break;
-
-      case "meta":
-        for (var i = 0, len = METATYPES.length; i < len; i++) {
-          var metatype = METATYPES[i];
-          if (!h.props.hasOwnProperty(metatype)) continue;
-
-          if (metatype === "charSet" || metatype === "viewport") {
-            if (metaTypes.has(metatype)) return false;
-            metaTypes.add(metatype);
-          } else {
-            var category = h.props[metatype];
-            var categories = metaCategories[metatype] || new _set.default();
-            if (categories.has(category)) return false;
-            categories.add(category);
-            metaCategories[metatype] = categories;
-          }
-        }
-
-        break;
-    }
-
-    return true;
-  };
-}
-/**
- *
- * @param headElement List of multiple <Head> instances
- */
-
-
-function reduceComponents(headElements, props) {
-  return headElements.reduce(function (list, headElement) {
-    var headElementChildren = react_1.default.Children.toArray(headElement.props.children);
-    return list.concat(headElementChildren);
-  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead('', props.isAmp)).filter(unique()).reverse().map(function (c, i) {
-    var className = (c.props && c.props.className ? c.props.className + " " : "") + "next-head";
-    var key = c.key || i;
-    return react_1.default.cloneElement(c, {
-      key: key,
-      className: className
-    });
-  });
-}
-
-var Effect = side_effect_1.default();
-
-function Head(_ref) {
-  var children = _ref.children;
-  return react_1.default.createElement(amphtml_context_1.AmpModeContext.Consumer, null, function (ampMode) {
-    return react_1.default.createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
-      return react_1.default.createElement(Effect, {
-        reduceComponentsToState: reduceComponents,
-        handleStateChange: updateHead,
-        isAmp: amp_1.isAmp(ampMode)
-      }, children);
-    });
-  });
-}
-
-Head.rewind = Effect.rewind;
-exports.default = Head;
-
-/***/ }),
-
 /***/ "./node_modules/next-server/dist/lib/mitt.js":
 /*!***************************************************!*\
   !*** ./node_modules/next-server/dist/lib/mitt.js ***!
@@ -22700,116 +21772,6 @@ exports.default = Router;
 
 /***/ }),
 
-/***/ "./node_modules/next-server/dist/lib/side-effect.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/side-effect.js ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js"));
-
-var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js"));
-
-var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js"));
-
-var _assertThisInitialized2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js"));
-
-var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js"));
-
-var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js"));
-
-var _toConsumableArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/toConsumableArray.js"));
-
-var _set = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/set */ "./node_modules/@babel/runtime-corejs2/core-js/set.js"));
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-var isServer = typeof window === 'undefined';
-
-function withSideEffect() {
-  var mountedInstances = new _set.default();
-  var state;
-
-  function emitChange(component) {
-    state = component.props.reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances), component.props);
-
-    if (component.props.handleStateChange) {
-      component.props.handleStateChange(state);
-    }
-  }
-
-  var SideEffect =
-  /*#__PURE__*/
-  function (_react_1$Component) {
-    (0, _inherits2.default)(SideEffect, _react_1$Component);
-    (0, _createClass2.default)(SideEffect, null, [{
-      key: "rewind",
-      // Used when server rendering
-      value: function rewind() {
-        var recordedState = state;
-        state = undefined;
-        mountedInstances.clear();
-        return recordedState;
-      }
-    }]);
-
-    function SideEffect(props) {
-      var _this;
-
-      (0, _classCallCheck2.default)(this, SideEffect);
-      _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(SideEffect).call(this, props));
-
-      if (isServer) {
-        mountedInstances.add((0, _assertThisInitialized2.default)(_this));
-        emitChange((0, _assertThisInitialized2.default)(_this));
-      }
-
-      return _this;
-    }
-
-    (0, _createClass2.default)(SideEffect, [{
-      key: "componentDidMount",
-      value: function componentDidMount() {
-        mountedInstances.add(this);
-        emitChange(this);
-      }
-    }, {
-      key: "componentDidUpdate",
-      value: function componentDidUpdate() {
-        emitChange(this);
-      }
-    }, {
-      key: "componentWillUnmount",
-      value: function componentWillUnmount() {
-        mountedInstances.delete(this);
-        emitChange(this);
-      }
-    }, {
-      key: "render",
-      value: function render() {
-        return null;
-      }
-    }]);
-    return SideEffect;
-  }(react_1.Component);
-
-  return SideEffect;
-}
-
-exports.default = withSideEffect;
-
-/***/ }),
-
 /***/ "./node_modules/next-server/dist/lib/utils.js":
 /*!****************************************************!*\
   !*** ./node_modules/next-server/dist/lib/utils.js ***!
@@ -22972,21 +21934,21 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Findex.js!./":
-/*!*******************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Findex.js ***!
-  \*******************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Feventos%2Fevento-vii&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Feventos%2Fevento-vii.js!./":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Feventos%2Fevento-vii&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Feventos%2Fevento-vii.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/", function() {
-      var page = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/eventos/evento-vii", function() {
+      var page = __webpack_require__(/*! ./pages/eventos/evento-vii.js */ "./pages/eventos/evento-vii.js")
       if(true) {
-        module.hot.accept(/*! ./pages/index.js */ "./pages/index.js", function() {
-          if(!next.router.components["/"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/index.js */ "./pages/index.js")
-          next.router.update("/", updatedPage.default || updatedPage)
+        module.hot.accept(/*! ./pages/eventos/evento-vii.js */ "./pages/eventos/evento-vii.js", function() {
+          if(!next.router.components["/eventos/evento-vii"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/eventos/evento-vii.js */ "./pages/eventos/evento-vii.js")
+          next.router.update("/eventos/evento-vii", updatedPage.default || updatedPage)
         })
       }
       return { page: page.default || page }
@@ -30455,10 +29417,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/index.js":
-/*!************************!*\
-  !*** ./pages/index.js ***!
-  \************************/
+/***/ "./pages/eventos/evento-vii.js":
+/*!*************************************!*\
+  !*** ./pages/eventos/evento-vii.js ***!
+  \*************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -30468,78 +29430,560 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MainNav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/MainNav */ "./components/MainNav.js");
-/* harmony import */ var _components_MainHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/MainHeader */ "./components/MainHeader.js");
-/* harmony import */ var _components_MainInfo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/MainInfo */ "./components/MainInfo.js");
-/* harmony import */ var _components_MainFooter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/MainFooter */ "./components/MainFooter.js");
-/* harmony import */ var _components_HeadComponent__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/HeadComponent */ "./components/HeadComponent.js");
-var _jsxFileName = "/home/renatoamreis/Desktop/cueva-nextjs/pages/index.js";
-
- // import Link from 'next/link'
+/* harmony import */ var _components_MainNav__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/MainNav */ "./components/MainNav.js");
+/* harmony import */ var _components_MainHeader__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/MainHeader */ "./components/MainHeader.js");
+/* harmony import */ var _components_MainFooter__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/MainFooter */ "./components/MainFooter.js");
+var _jsxFileName = "/home/renatoamreis/Desktop/cueva-nextjs/pages/eventos/evento-vii.js";
 
 
 
 
- //import Head from "../components/head"
 
 
-
-var Home = function Home() {
+var eventovii = function eventovii() {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2008225623" + " " + "body-main",
+    className: "jsx-1575430185",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 7
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_HeadComponent__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainNav__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainNav__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 8
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainHeader__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 9
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainInfo__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1575430185" + " " + "main-info container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
+    className: "jsx-1575430185" + " " + "reglamento-h1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "VII carrera nocturna por el centro peninsular"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185" + " " + "reglamento-data",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainFooter__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  }, "3 de Agosto de 2019"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1575430185" + " " + "main-info__eventos-image",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2008225623",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "/static/cartels/cartel-vii.jpeg",
+    target: "_blank",
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JlbmF0b2FtcmVpcy9EZXNrdG9wL2N1ZXZhLW5leHRqcy9wYWdlcy9pbmRleC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFnQmdCIiwiZmlsZSI6Ii9ob21lL3JlbmF0b2FtcmVpcy9EZXNrdG9wL2N1ZXZhLW5leHRqcy9wYWdlcy9pbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcbi8vIGltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCBNYWluTmF2IGZyb20gXCIuLi9jb21wb25lbnRzL01haW5OYXZcIjtcbmltcG9ydCBNYWluSGVhZGVyIGZyb20gXCIuLi9jb21wb25lbnRzL01haW5IZWFkZXJcIjtcbmltcG9ydCBNYWluSW5mbyBmcm9tIFwiLi4vY29tcG9uZW50cy9NYWluSW5mb1wiO1xuaW1wb3J0IE1haW5Gb290ZXIgZnJvbSBcIi4uL2NvbXBvbmVudHMvTWFpbkZvb3RlclwiO1xuLy9pbXBvcnQgSGVhZCBmcm9tIFwiLi4vY29tcG9uZW50cy9oZWFkXCJcbmltcG9ydCBIZWFkQ29tcG9uZW50IGZyb20gXCIuLi9jb21wb25lbnRzL0hlYWRDb21wb25lbnRcIjtcblxuY29uc3QgSG9tZSA9ICgpID0+IChcbiAgPGRpdiBjbGFzc05hbWU9XCJib2R5LW1haW5cIj5cbiAgICA8SGVhZENvbXBvbmVudCAvPlxuICAgIDxNYWluTmF2IC8+XG4gICAgPE1haW5IZWFkZXIgLz5cbiAgICA8TWFpbkluZm8gLz5cbiAgICA8TWFpbkZvb3RlciAvPlxuICAgIDxzdHlsZSBqc3g+e2BcblxuYH08L3N0eWxlPlxuICA8L2Rpdj5cbik7XG5cbmV4cG9ydCBkZWZhdWx0IEhvbWU7XG4iXX0= */\n/*@ sourceURL=/home/renatoamreis/Desktop/cueva-nextjs/pages/index.js */"));
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/cartels/cartel-vii.jpeg",
+    className: "jsx-1575430185" + " " + "eventos-main__imagem",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h2", {
+    className: "jsx-1575430185" + " " + "reglamento-h2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Reglamento"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1575430185" + " " + "reglamento",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Art\xEDculo 1 (D\xEDa, lugar y hora)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "El s\xE1bado 3 de Agosto de 2019 a partir de las 20:00h (Ni\xF1os) 21:20h (Adultos) se celebrara la VII Edici\xF3n de la carrera nocturna de Pinto, que contar\xE1 con las distancias de 5 y 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, "El recorrido con salida y meta junto a C/ Egido de la Fuente, se llevara a cabo por las calles de la localidad."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Tambi\xE9n se celebraran conjuntamente otras pruebas, para categor\xEDas menores, destinadas a la promoci\xF3n del atletismo en el municipio de Pinto (Madrid)."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, "Dicho evento deportivo cuenta con la colaboraci\xF3n del Ayuntamiento de Pinto, la organizaci\xF3n de Asociaci\xF3n \u201CCueva de Kun y Hebles\u201D de Pinto y el cronometraje y asesoramiento de Evedeport."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, "Art\xEDculo 2 (Participaci\xF3n)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, "Podr\xE1n tomar parte en la prueba todas aquellas personas que lo deseen, est\xE9n federadas o no, siempre que est\xE9n inscritas tanto en tiempo como en las formas establecidas para ello por la organizaci\xF3n de la prueba. Todo aquel participante por el hecho de tomar parte en dicha competici\xF3n, da lugar a la aceptaci\xF3n de dicho reglamento y declara estar en buenas condiciones f\xEDsicas para un normal desarrollo de la prueba."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, "Art\xEDculo 3 (Inscripciones)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185" + " " + "event-neg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "Precio: 11 euros."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185" + " " + "event-neg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, "Para las dos distancias"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, "Se realizaran desde el d\xEDa 28 de Mayo de 2018 al d\xEDa 30 de Julio \xF3 hasta agotar los 500 dorsales, en los siguientes puntos de inscripci\xF3n:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    },
+    __self: this
+  }, "Deportes Decimas (Centro comercial \xC9boli) en Pinto; Cafeter\xEDa Triana (Sevilla n\xBA 5) en Pinto; y por Internet en:", " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "http://www.evedeport.es",
+    target: "_blank",
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "www.evedeport.es"), " ", react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "http://www.carreraspopulares.com",
+    target: "_blank",
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, "www.carreraspopulares.com"), " "), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Las inscripciones menores son gratuitas en puntos presenciales y con un coste de 1\u20AC online."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }, "El d\xEDa de la prueba, solamente se admitir\xE1n inscripciones en la secretaria de la prueba, si no se hubiera alcanzado el l\xEDmite de inscripci\xF3n, previo pago de 15 euros en la carrera de 10 Km."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "Art\xEDculo 4 (Recogida bolsa del corredor y dorsales)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "Los dorsales chip y la bolsa del corredor , se podr\xE1n recoger:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "En el polideportivo Alberto Contador ."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "Viernes dia 2 de 11:00 a 13:30 h Y de 16:00h a 20:00h"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Sabado dia 3 de 11:00 a 14:00h"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, "Y en la zona de salida / meta presentando el justificante de inscripci\xF3n o de pago de la persona inscrita, desde las 18.00 horas hasta 30\xB4 minutos antes de la salida de la carrera."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, "Se descalificara a todo participante que, no lleve el dorsal colocado durante la competici\xF3n en el pecho, sin recortar, manipular, ni doblar. Todo aquel que participe con el dorsal de otra persona, as\xED como aquel que participe con otro dorsal que no sea proporcionado por la organizaci\xF3n."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, "Se entregar\xE1 un chip de zapatilla que debe ser colocado sin ser aplastado y siguiendo indicaciones de la organizaci\xF3n."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, "Art\xEDculo 5 (Avituallamiento)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, "Al paso por meta en el primera vuelta km 5 los corredores podr\xE1n disponer de avituallamiento al igual que en el momento de entrar en meta km 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115
+    },
+    __self: this
+  }, "Art\xEDculo 6 (Ropero)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116
+    },
+    __self: this
+  }, "Existir\xE1 un servicio de ropero gratuito y duchas en el polideportivo Alberto Contador. Calle Isabel la Cat\xF3lica"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, "Art\xEDculo 7 (Seguro)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "Todos los participantes inscritos est\xE1n cubiertos por una p\xF3liza de seguros de responsabilidad civil por da\xF1os a terceros, etc., y siempre que se produzcan como consecuencia directa del desarrollo de la prueba, nunca como derivaci\xF3n de un padecimiento o tara latente, imprudencia, negligencia o inobservancia de las leyes y reglamento de la prueba. La organizaci\xF3n no se hace responsable de los da\xF1os o accidentes que pudieran causar o causarse los atletas participantes en esta competici\xF3n."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
+    },
+    __self: this
+  }, "Art\xEDculo 8 (Categor\xEDas, distancias, horarios)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 134
+    },
+    __self: this
+  }, "Las categor\xEDas y distancias a recorrer por los participantes son las siguientes."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, "21:30H SENIOR MASCULINO Y FEMENINO (DE 16 A 34 A\xD1OS) 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }, "21:30H VETERANO A MASCULINO Y FEMENINO (DE 35 A 44 A\xD1OS) 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, "21:30H VETERANO B MASCULINO Y FEMENINO (DE 45 a 54 a\xF1os) 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
+  }, "21:30H VETERANO C MASCULINO Y FEMENINO (DE 55 EN ADELANTE) 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 142
+    },
+    __self: this
+  }, "TAMBIEN SE DISPUTAR\xC1 UNA CATEGORIA LOCAL ACUMULABLE CON LAS CATEGORIAS."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 146
+    },
+    __self: this
+  }, "CARRERAS MENORES:"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 147
+    },
+    __self: this
+  }, "20:00H CADETE MASCULINO Y FEMENINO (14 Y 15 A\xD1OS) 1,2KM"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 148
+    },
+    __self: this
+  }, "20:10H INFANTIL MASCULINO YN FEMENINO (12 Y 13 A\xD1OS) 1,2KM"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 149
+    },
+    __self: this
+  }, "20:20H ALEVIN MASCULINO Y FEMENINO (10 Y 11 A\xD1OS) 800 MTS."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, "20.30H BENJAMIN MASCULINO Y FEMENINO (7-8 Y 9 A\xD1OS) 600 MTS"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
+    },
+    __self: this
+  }, "20:40H CHUPETIN MASCULINO Y FEMENINO ( DE 2 A 6 A\xD1OS) 200 MTS (NO COMPETITIVA-SE HAR\xC1N GRUPOS)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 155
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 156
+    },
+    __self: this
+  }, "Art\xEDculo 9 (Premios y regalos)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 157
+    },
+    __self: this
+  }, "Todos los corredores se llevar\xE1n una camiseta 42k, y dem\xE1s regalos que consiga la organizaci\xF3n"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 161
+    },
+    __self: this
+  }, "Recibir\xE1n trofeo los tres primeros clasificados de cada categor\xEDa en la carrera de 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 165
+    },
+    __self: this
+  }, "Recibir\xE1n trofeo los tres primeros locales en la prueba de 10 km"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 166
+    },
+    __self: this
+  }, "Recibir\xE1n trofeo los tres primeros corredores de la general de 5 km en ambos sexos."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 170
+    },
+    __self: this
+  }, "Recibir\xE1n trofeo los tres primeros clasificados desde benjam\xEDn a cadete en las carreras de menores."), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("br", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 174
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 175
+    },
+    __self: this
+  }, "Art\xEDculo 10 (Circuito)"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 176
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
+    href: "/static/eventos/circuito-vii.png",
+    target: "_blank",
+    className: "jsx-1575430185",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 177
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+    src: "/static/eventos/circuito-vii.png",
+    className: "jsx-1575430185" + " " + "circuito",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 178
+    },
+    __self: this
+  }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_MainFooter__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 184
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1575430185",
+    __self: this
+  }, "@font-face{font-family:\"Montserrat\",\"Helvetica Neue\",Arial,sans-serif;}.container.jsx-1575430185{max-width:960px;}.reglamento-data.jsx-1575430185{-webkit-transform:translateY(-2rem);-ms-transform:translateY(-2rem);transform:translateY(-2rem);text-align:center;}.main-info.jsx-1575430185{font-family:\"Montserrat\",\"Helvetica Neue\",Arial,sans-serif;grid-area:main-one;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:1rem;margin-right:auto;margin-left:auto;}.main-info__eventos-image.jsx-1575430185{grid-area:event-content-1;justify-self:center;-webkit-align-self:center;-ms-flex-item-align:center;align-self:center;}.eventos-main__imagem.jsx-1575430185{max-height:25rem;}.reglamento.jsx-1575430185{font-weight:400;border-width:2px;border-style:solid;border-color:#f96332;padding:1rem;}.reglamento-h2.jsx-1575430185{color:#f96332;-webkit-transform:translateY(2.6rem);-ms-transform:translateY(2.6rem);transform:translateY(2.6rem);z-index:1000;background:white;width:8.6rem;}.reglamento-h1.jsx-1575430185{color:#f96332;text-align:center;}.event-neg.jsx-1575430185{font-weight:600;}.circuito.jsx-1575430185{display:block;margin-left:auto;margin-right:auto;max-width:90%;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL3JlbmF0b2FtcmVpcy9EZXNrdG9wL2N1ZXZhLW5leHRqcy9wYWdlcy9ldmVudG9zL2V2ZW50by12aWkuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBeUxnQixBQUkyRSxBQUtsRCxBQUlZLEFBS2dDLEFBVWxDLEFBTVAsQUFLSCxBQVFGLEFBUUEsQUFLRSxBQUlKLGNBaEJpQixBQVFYLEFBU0gsRUF2RGpCLEFBOEJtQixBQXFCckIsQ0ExQkUsU0FOc0IsS0FxQ0osQ0FUcEIsQ0FoQnVCLGFBWEQsR0FxQ04sR0F6QlMsT0FwQ3RCLEFBQUMsQUFhaUIsSUFpRHJCLFVBekJpQixLQXZCRixRQXdCZixVQTlCc0IsaUJBbUNMLENBbENqQixHQWdCRSxTQW1CbUIsaUJBQ0osU0E5Qk8sSUErQnhCLDBFQTlCZSxhQUNLLGtCQUNELGlCQUNuQiIsImZpbGUiOiIvaG9tZS9yZW5hdG9hbXJlaXMvRGVza3RvcC9jdWV2YS1uZXh0anMvcGFnZXMvZXZlbnRvcy9ldmVudG8tdmlpLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IE1haW5OYXYgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTWFpbk5hdlwiO1xuaW1wb3J0IE1haW5IZWFkZXIgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTWFpbkhlYWRlclwiO1xuaW1wb3J0IE1haW5Gb290ZXIgZnJvbSBcIi4uLy4uL2NvbXBvbmVudHMvTWFpbkZvb3RlclwiO1xuXG5jb25zdCBldmVudG92aWkgPSAoKSA9PiAoXG4gIDxkaXY+XG4gICAgPE1haW5OYXYgLz5cbiAgICA8TWFpbkhlYWRlciAvPlxuXG4gICAgPGRpdiBjbGFzc05hbWU9XCJtYWluLWluZm8gY29udGFpbmVyXCI+XG4gICAgICA8aDEgY2xhc3NOYW1lPVwicmVnbGFtZW50by1oMVwiPlxuICAgICAgICBWSUkgY2FycmVyYSBub2N0dXJuYSBwb3IgZWwgY2VudHJvIHBlbmluc3VsYXJcbiAgICAgIDwvaDE+XG4gICAgICA8aDMgY2xhc3NOYW1lPVwicmVnbGFtZW50by1kYXRhXCI+MyBkZSBBZ29zdG8gZGUgMjAxOTwvaDM+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1haW4taW5mb19fZXZlbnRvcy1pbWFnZVwiPlxuICAgICAgICA8YSBocmVmPVwiL3N0YXRpYy9jYXJ0ZWxzL2NhcnRlbC12aWkuanBlZ1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxpbWdcbiAgICAgICAgICAgIGNsYXNzTmFtZT1cImV2ZW50b3MtbWFpbl9faW1hZ2VtXCJcbiAgICAgICAgICAgIHNyYz1cIi9zdGF0aWMvY2FydGVscy9jYXJ0ZWwtdmlpLmpwZWdcIlxuICAgICAgICAgIC8+XG4gICAgICAgIDwvYT5cbiAgICAgIDwvZGl2PlxuICAgICAgPGgyIGNsYXNzTmFtZT1cInJlZ2xhbWVudG8taDJcIj5SZWdsYW1lbnRvPC9oMj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwicmVnbGFtZW50b1wiPlxuICAgICAgICA8aDM+QXJ0w61jdWxvIDEgKETDrWEsIGx1Z2FyIHkgaG9yYSk8L2gzPlxuICAgICAgICA8cD5cbiAgICAgICAgICBFbCBzw6FiYWRvIDMgZGUgQWdvc3RvIGRlIDIwMTkgYSBwYXJ0aXIgZGUgbGFzIDIwOjAwaCAoTmnDsW9zKSAyMToyMGhcbiAgICAgICAgICAoQWR1bHRvcykgc2UgY2VsZWJyYXJhIGxhIFZJSSBFZGljacOzbiBkZSBsYSBjYXJyZXJhIG5vY3R1cm5hIGRlIFBpbnRvLFxuICAgICAgICAgIHF1ZSBjb250YXLDoSBjb24gbGFzIGRpc3RhbmNpYXMgZGUgNSB5IDEwIGttXG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgRWwgcmVjb3JyaWRvIGNvbiBzYWxpZGEgeSBtZXRhIGp1bnRvIGEgQy8gRWdpZG8gZGUgbGEgRnVlbnRlLCBzZVxuICAgICAgICAgIGxsZXZhcmEgYSBjYWJvIHBvciBsYXMgY2FsbGVzIGRlIGxhIGxvY2FsaWRhZC5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBUYW1iacOpbiBzZSBjZWxlYnJhcmFuIGNvbmp1bnRhbWVudGUgb3RyYXMgcHJ1ZWJhcywgcGFyYSBjYXRlZ29yw61hc1xuICAgICAgICAgIG1lbm9yZXMsIGRlc3RpbmFkYXMgYSBsYSBwcm9tb2Npw7NuIGRlbCBhdGxldGlzbW8gZW4gZWwgbXVuaWNpcGlvIGRlXG4gICAgICAgICAgUGludG8gKE1hZHJpZCkuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgRGljaG8gZXZlbnRvIGRlcG9ydGl2byBjdWVudGEgY29uIGxhIGNvbGFib3JhY2nDs24gZGVsIEF5dW50YW1pZW50byBkZVxuICAgICAgICAgIFBpbnRvLCBsYSBvcmdhbml6YWNpw7NuIGRlIEFzb2NpYWNpw7NuIOKAnEN1ZXZhIGRlIEt1biB5IEhlYmxlc+KAnSBkZSBQaW50b1xuICAgICAgICAgIHkgZWwgY3Jvbm9tZXRyYWplIHkgYXNlc29yYW1pZW50byBkZSBFdmVkZXBvcnQuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxoMz5BcnTDrWN1bG8gMiAoUGFydGljaXBhY2nDs24pPC9oMz5cbiAgICAgICAgPHA+XG4gICAgICAgICAgUG9kcsOhbiB0b21hciBwYXJ0ZSBlbiBsYSBwcnVlYmEgdG9kYXMgYXF1ZWxsYXMgcGVyc29uYXMgcXVlIGxvIGRlc2VlbixcbiAgICAgICAgICBlc3TDqW4gZmVkZXJhZGFzIG8gbm8sIHNpZW1wcmUgcXVlIGVzdMOpbiBpbnNjcml0YXMgdGFudG8gZW4gdGllbXBvIGNvbW9cbiAgICAgICAgICBlbiBsYXMgZm9ybWFzIGVzdGFibGVjaWRhcyBwYXJhIGVsbG8gcG9yIGxhIG9yZ2FuaXphY2nDs24gZGUgbGEgcHJ1ZWJhLlxuICAgICAgICAgIFRvZG8gYXF1ZWwgcGFydGljaXBhbnRlIHBvciBlbCBoZWNobyBkZSB0b21hciBwYXJ0ZSBlbiBkaWNoYVxuICAgICAgICAgIGNvbXBldGljacOzbiwgZGEgbHVnYXIgYSBsYSBhY2VwdGFjacOzbiBkZSBkaWNobyByZWdsYW1lbnRvIHkgZGVjbGFyYVxuICAgICAgICAgIGVzdGFyIGVuIGJ1ZW5hcyBjb25kaWNpb25lcyBmw61zaWNhcyBwYXJhIHVuIG5vcm1hbCBkZXNhcnJvbGxvIGRlIGxhXG4gICAgICAgICAgcHJ1ZWJhLlxuICAgICAgICA8L3A+XG4gICAgICAgIDxiciAvPlxuICAgICAgICA8aDM+QXJ0w61jdWxvIDMgKEluc2NyaXBjaW9uZXMpPC9oMz5cbiAgICAgICAgPHAgY2xhc3NOYW1lPVwiZXZlbnQtbmVnXCI+UHJlY2lvOiAxMSBldXJvcy48L3A+XG4gICAgICAgIDxwIGNsYXNzTmFtZT1cImV2ZW50LW5lZ1wiPlBhcmEgbGFzIGRvcyBkaXN0YW5jaWFzPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBTZSByZWFsaXphcmFuIGRlc2RlIGVsIGTDrWEgMjggZGUgTWF5byBkZSAyMDE4IGFsIGTDrWEgMzAgZGUgSnVsaW8gw7NcbiAgICAgICAgICBoYXN0YSBhZ290YXIgbG9zIDUwMCBkb3JzYWxlcywgZW4gbG9zIHNpZ3VpZW50ZXMgcHVudG9zIGRlXG4gICAgICAgICAgaW5zY3JpcGNpw7NuOlxuICAgICAgICA8L3A+XG4gICAgICAgIDxwPlxuICAgICAgICAgIERlcG9ydGVzIERlY2ltYXMgKENlbnRybyBjb21lcmNpYWwgw4lib2xpKSBlbiBQaW50bzsgQ2FmZXRlcsOtYSBUcmlhbmFcbiAgICAgICAgICAoU2V2aWxsYSBuwrogNSkgZW4gUGludG87IHkgcG9yIEludGVybmV0IGVuOntcIiBcIn1cbiAgICAgICAgICA8YSBocmVmPVwiaHR0cDovL3d3dy5ldmVkZXBvcnQuZXNcIiB0YXJnZXQ9XCJfYmxhbmtcIj5cbiAgICAgICAgICAgIHd3dy5ldmVkZXBvcnQuZXNcbiAgICAgICAgICA8L2E+e1wiIFwifVxuICAgICAgICAgIDxhIGhyZWY9XCJodHRwOi8vd3d3LmNhcnJlcmFzcG9wdWxhcmVzLmNvbVwiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgICAgd3d3LmNhcnJlcmFzcG9wdWxhcmVzLmNvbVxuICAgICAgICAgIDwvYT57XCIgXCJ9XG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgTGFzIGluc2NyaXBjaW9uZXMgbWVub3JlcyBzb24gZ3JhdHVpdGFzIGVuIHB1bnRvcyBwcmVzZW5jaWFsZXMgeSBjb25cbiAgICAgICAgICB1biBjb3N0ZSBkZSAx4oKsIG9ubGluZS5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBFbCBkw61hIGRlIGxhIHBydWViYSwgc29sYW1lbnRlIHNlIGFkbWl0aXLDoW4gaW5zY3JpcGNpb25lcyBlbiBsYVxuICAgICAgICAgIHNlY3JldGFyaWEgZGUgbGEgcHJ1ZWJhLCBzaSBubyBzZSBodWJpZXJhIGFsY2FuemFkbyBlbCBsw61taXRlIGRlXG4gICAgICAgICAgaW5zY3JpcGNpw7NuLCBwcmV2aW8gcGFnbyBkZSAxNSBldXJvcyBlbiBsYSBjYXJyZXJhIGRlIDEwIEttLlxuICAgICAgICA8L3A+XG4gICAgICAgIDxiciAvPlxuICAgICAgICA8aDM+QXJ0w61jdWxvIDQgKFJlY29naWRhIGJvbHNhIGRlbCBjb3JyZWRvciB5IGRvcnNhbGVzKTwvaDM+XG4gICAgICAgIDxwPkxvcyBkb3JzYWxlcyBjaGlwIHkgbGEgYm9sc2EgZGVsIGNvcnJlZG9yICwgc2UgcG9kcsOhbiByZWNvZ2VyOjwvcD5cbiAgICAgICAgPHA+RW4gZWwgcG9saWRlcG9ydGl2byBBbGJlcnRvIENvbnRhZG9yIC48L3A+XG4gICAgICAgIDxwPlZpZXJuZXMgZGlhIDIgZGUgMTE6MDAgYSAxMzozMCBoIFkgZGUgMTY6MDBoIGEgMjA6MDBoPC9wPlxuICAgICAgICA8cD5TYWJhZG8gZGlhIDMgZGUgMTE6MDAgYSAxNDowMGg8L3A+XG4gICAgICAgIDxwPlxuICAgICAgICAgIFkgZW4gbGEgem9uYSBkZSBzYWxpZGEgLyBtZXRhIHByZXNlbnRhbmRvIGVsIGp1c3RpZmljYW50ZSBkZVxuICAgICAgICAgIGluc2NyaXBjacOzbiBvIGRlIHBhZ28gZGUgbGEgcGVyc29uYSBpbnNjcml0YSwgZGVzZGUgbGFzIDE4LjAwIGhvcmFzXG4gICAgICAgICAgaGFzdGEgMzDCtCBtaW51dG9zIGFudGVzIGRlIGxhIHNhbGlkYSBkZSBsYSBjYXJyZXJhLlxuICAgICAgICA8L3A+XG4gICAgICAgIDxwPlxuICAgICAgICAgIFNlIGRlc2NhbGlmaWNhcmEgYSB0b2RvIHBhcnRpY2lwYW50ZSBxdWUsIG5vIGxsZXZlIGVsIGRvcnNhbCBjb2xvY2Fkb1xuICAgICAgICAgIGR1cmFudGUgbGEgY29tcGV0aWNpw7NuIGVuIGVsIHBlY2hvLCBzaW4gcmVjb3J0YXIsIG1hbmlwdWxhciwgbmlcbiAgICAgICAgICBkb2JsYXIuIFRvZG8gYXF1ZWwgcXVlIHBhcnRpY2lwZSBjb24gZWwgZG9yc2FsIGRlIG90cmEgcGVyc29uYSwgYXPDrVxuICAgICAgICAgIGNvbW8gYXF1ZWwgcXVlIHBhcnRpY2lwZSBjb24gb3RybyBkb3JzYWwgcXVlIG5vIHNlYSBwcm9wb3JjaW9uYWRvIHBvclxuICAgICAgICAgIGxhIG9yZ2FuaXphY2nDs24uXG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgU2UgZW50cmVnYXLDoSB1biBjaGlwIGRlIHphcGF0aWxsYSBxdWUgZGViZSBzZXIgY29sb2NhZG8gc2luIHNlclxuICAgICAgICAgIGFwbGFzdGFkbyB5IHNpZ3VpZW5kbyBpbmRpY2FjaW9uZXMgZGUgbGEgb3JnYW5pemFjacOzbi5cbiAgICAgICAgPC9wPlxuICAgICAgICA8YnIgLz5cbiAgICAgICAgPGgzPkFydMOtY3VsbyA1IChBdml0dWFsbGFtaWVudG8pPC9oMz5cbiAgICAgICAgPHA+XG4gICAgICAgICAgQWwgcGFzbyBwb3IgbWV0YSBlbiBlbCBwcmltZXJhIHZ1ZWx0YSBrbSA1IGxvcyBjb3JyZWRvcmVzIHBvZHLDoW5cbiAgICAgICAgICBkaXNwb25lciBkZSBhdml0dWFsbGFtaWVudG8gYWwgaWd1YWwgcXVlIGVuIGVsIG1vbWVudG8gZGUgZW50cmFyIGVuXG4gICAgICAgICAgbWV0YSBrbSAxMCBrbVxuICAgICAgICA8L3A+XG4gICAgICAgIDxiciAvPlxuICAgICAgICA8aDM+QXJ0w61jdWxvIDYgKFJvcGVybyk8L2gzPlxuICAgICAgICA8cD5cbiAgICAgICAgICBFeGlzdGlyw6EgdW4gc2VydmljaW8gZGUgcm9wZXJvIGdyYXR1aXRvIHkgZHVjaGFzIGVuIGVsIHBvbGlkZXBvcnRpdm9cbiAgICAgICAgICBBbGJlcnRvIENvbnRhZG9yLiBDYWxsZSBJc2FiZWwgbGEgQ2F0w7NsaWNhXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxoMz5BcnTDrWN1bG8gNyAoU2VndXJvKTwvaDM+XG4gICAgICAgIDxwPlxuICAgICAgICAgIFRvZG9zIGxvcyBwYXJ0aWNpcGFudGVzIGluc2NyaXRvcyBlc3TDoW4gY3ViaWVydG9zIHBvciB1bmEgcMOzbGl6YSBkZVxuICAgICAgICAgIHNlZ3Vyb3MgZGUgcmVzcG9uc2FiaWxpZGFkIGNpdmlsIHBvciBkYcOxb3MgYSB0ZXJjZXJvcywgZXRjLiwgeSBzaWVtcHJlXG4gICAgICAgICAgcXVlIHNlIHByb2R1emNhbiBjb21vIGNvbnNlY3VlbmNpYSBkaXJlY3RhIGRlbCBkZXNhcnJvbGxvIGRlIGxhXG4gICAgICAgICAgcHJ1ZWJhLCBudW5jYSBjb21vIGRlcml2YWNpw7NuIGRlIHVuIHBhZGVjaW1pZW50byBvIHRhcmEgbGF0ZW50ZSxcbiAgICAgICAgICBpbXBydWRlbmNpYSwgbmVnbGlnZW5jaWEgbyBpbm9ic2VydmFuY2lhIGRlIGxhcyBsZXllcyB5IHJlZ2xhbWVudG8gZGVcbiAgICAgICAgICBsYSBwcnVlYmEuIExhIG9yZ2FuaXphY2nDs24gbm8gc2UgaGFjZSByZXNwb25zYWJsZSBkZSBsb3MgZGHDsW9zIG9cbiAgICAgICAgICBhY2NpZGVudGVzIHF1ZSBwdWRpZXJhbiBjYXVzYXIgbyBjYXVzYXJzZSBsb3MgYXRsZXRhcyBwYXJ0aWNpcGFudGVzIGVuXG4gICAgICAgICAgZXN0YSBjb21wZXRpY2nDs24uXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxoMz5BcnTDrWN1bG8gOCAoQ2F0ZWdvcsOtYXMsIGRpc3RhbmNpYXMsIGhvcmFyaW9zKTwvaDM+XG4gICAgICAgIDxwPlxuICAgICAgICAgIExhcyBjYXRlZ29yw61hcyB5IGRpc3RhbmNpYXMgYSByZWNvcnJlciBwb3IgbG9zIHBhcnRpY2lwYW50ZXMgc29uIGxhc1xuICAgICAgICAgIHNpZ3VpZW50ZXMuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+MjE6MzBIIFNFTklPUiBNQVNDVUxJTk8gWSBGRU1FTklOTyAoREUgMTYgQSAzNCBBw5FPUykgMTAga208L3A+XG4gICAgICAgIDxwPjIxOjMwSCBWRVRFUkFOTyBBIE1BU0NVTElOTyBZIEZFTUVOSU5PIChERSAzNSBBIDQ0IEHDkU9TKSAxMCBrbTwvcD5cbiAgICAgICAgPHA+MjE6MzBIIFZFVEVSQU5PIEIgTUFTQ1VMSU5PIFkgRkVNRU5JTk8gKERFIDQ1IGEgNTQgYcOxb3MpIDEwIGttPC9wPlxuICAgICAgICA8cD4yMTozMEggVkVURVJBTk8gQyBNQVNDVUxJTk8gWSBGRU1FTklOTyAoREUgNTUgRU4gQURFTEFOVEUpIDEwIGttPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBUQU1CSUVOIFNFIERJU1BVVEFSw4EgVU5BIENBVEVHT1JJQSBMT0NBTCBBQ1VNVUxBQkxFIENPTiBMQVNcbiAgICAgICAgICBDQVRFR09SSUFTLlxuICAgICAgICA8L3A+XG4gICAgICAgIDxwPkNBUlJFUkFTIE1FTk9SRVM6PC9wPlxuICAgICAgICA8cD4yMDowMEggQ0FERVRFIE1BU0NVTElOTyBZIEZFTUVOSU5PICgxNCBZIDE1IEHDkU9TKSAxLDJLTTwvcD5cbiAgICAgICAgPHA+MjA6MTBIIElORkFOVElMIE1BU0NVTElOTyBZTiBGRU1FTklOTyAoMTIgWSAxMyBBw5FPUykgMSwyS008L3A+XG4gICAgICAgIDxwPjIwOjIwSCBBTEVWSU4gTUFTQ1VMSU5PIFkgRkVNRU5JTk8gKDEwIFkgMTEgQcORT1MpIDgwMCBNVFMuPC9wPlxuICAgICAgICA8cD4yMC4zMEggQkVOSkFNSU4gTUFTQ1VMSU5PIFkgRkVNRU5JTk8gKDctOCBZIDkgQcORT1MpIDYwMCBNVFM8L3A+XG4gICAgICAgIDxwPlxuICAgICAgICAgIDIwOjQwSCBDSFVQRVRJTiBNQVNDVUxJTk8gWSBGRU1FTklOTyAoIERFIDIgQSA2IEHDkU9TKSAyMDAgTVRTIChOT1xuICAgICAgICAgIENPTVBFVElUSVZBLVNFIEhBUsOBTiBHUlVQT1MpXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxoMz5BcnTDrWN1bG8gOSAoUHJlbWlvcyB5IHJlZ2Fsb3MpPC9oMz5cbiAgICAgICAgPHA+XG4gICAgICAgICAgVG9kb3MgbG9zIGNvcnJlZG9yZXMgc2UgbGxldmFyw6FuIHVuYSBjYW1pc2V0YSA0MmssIHkgZGVtw6FzIHJlZ2Fsb3MgcXVlXG4gICAgICAgICAgY29uc2lnYSBsYSBvcmdhbml6YWNpw7NuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgUmVjaWJpcsOhbiB0cm9mZW8gbG9zIHRyZXMgcHJpbWVyb3MgY2xhc2lmaWNhZG9zIGRlIGNhZGEgY2F0ZWdvcsOtYSBlblxuICAgICAgICAgIGxhIGNhcnJlcmEgZGUgMTAga21cbiAgICAgICAgPC9wPlxuICAgICAgICA8cD5SZWNpYmlyw6FuIHRyb2ZlbyBsb3MgdHJlcyBwcmltZXJvcyBsb2NhbGVzIGVuIGxhIHBydWViYSBkZSAxMCBrbTwvcD5cbiAgICAgICAgPHA+XG4gICAgICAgICAgUmVjaWJpcsOhbiB0cm9mZW8gbG9zIHRyZXMgcHJpbWVyb3MgY29ycmVkb3JlcyBkZSBsYSBnZW5lcmFsIGRlIDUga20gZW5cbiAgICAgICAgICBhbWJvcyBzZXhvcy5cbiAgICAgICAgPC9wPlxuICAgICAgICA8cD5cbiAgICAgICAgICBSZWNpYmlyw6FuIHRyb2ZlbyBsb3MgdHJlcyBwcmltZXJvcyBjbGFzaWZpY2Fkb3MgZGVzZGUgYmVuamFtw61uIGFcbiAgICAgICAgICBjYWRldGUgZW4gbGFzIGNhcnJlcmFzIGRlIG1lbm9yZXMuXG4gICAgICAgIDwvcD5cbiAgICAgICAgPGJyIC8+XG4gICAgICAgIDxoMz5BcnTDrWN1bG8gMTAgKENpcmN1aXRvKTwvaDM+XG4gICAgICAgIDxkaXY+IFxuICAgICAgICAgIDxhIGhyZWY9XCIvc3RhdGljL2V2ZW50b3MvY2lyY3VpdG8tdmlpLnBuZ1wiIHRhcmdldD1cIl9ibGFua1wiPlxuICAgICAgICAgIDxpbWcgY2xhc3NOYW1lPVwiY2lyY3VpdG9cIiBzcmM9XCIvc3RhdGljL2V2ZW50b3MvY2lyY3VpdG8tdmlpLnBuZ1wiIC8+XG4gICAgICAgICAgPC9hPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuXG4gICAgPE1haW5Gb290ZXIgLz5cblxuICAgIDxzdHlsZSBqc3g+e2BcblxuICAgICAgICBAZm9udC1mYWNlIHtcbiAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBcIk1vbnRzZXJyYXRcIiwgXCJIZWx2ZXRpY2EgTmV1ZVwiLCBBcmlhbCwgc2Fucy1zZXJpZjtcbiAgICAgICAgICAgIHNyYzogaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PU1vbnRzZXJyYXQ6NDAwLDUwMCw2MDAsNzAwXG4gICAgICAgIH0gICBcblxuICAgICAgLmNvbnRhaW5lciB7XG4gICAgICAgIG1heC13aWR0aDogOTYwcHg7XG4gICAgICB9XG5cbiAgICAgIC5yZWdsYW1lbnRvLWRhdGEge1xuICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTJyZW0pO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgfVxuICAgIFxuICAgIC5tYWluLWluZm8ge1xuICAgICAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdFwiLCBcIkhlbHZldGljYSBOZXVlXCIsIEFyaWFsLCBzYW5zLXNlcmlmO1xuICAgICAgZ3JpZC1hcmVhOiBtYWluLW9uZTtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgcGFkZGluZzogMXJlbTtcbiAgICAgIG1hcmdpbi1yaWdodDogYXV0bztcbiAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgIH1cblxuICAgIC5tYWluLWluZm9fX2V2ZW50b3MtaW1hZ2Uge1xuICAgICAgICBncmlkLWFyZWE6IGV2ZW50LWNvbnRlbnQtMTtcbiAgICAgICAganVzdGlmeS1zZWxmOiBjZW50ZXI7XG4gICAgICAgIGFsaWduLXNlbGY6IGNlbnRlcjtcbiAgICAgIH1cblxuICAgICAgLmV2ZW50b3MtbWFpbl9faW1hZ2VtIHtcbiAgICAgICAgICBtYXgtaGVpZ2h0OiAyNXJlbTtcbiAgICAgIH1cbiAgICBcbiAgICAucmVnbGFtZW50byB7XG4gICAgICAgIC8qIHRleHQtYWxpZ246IDsgKi9cbiAgICAgICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICAgICAgYm9yZGVyLXdpZHRoOiAycHg7XG4gICAgICAgIGJvcmRlci1zdHlsZTogc29saWQ7XG4gICAgICAgIGJvcmRlci1jb2xvcjogI2Y5NjMzMjtcbiAgICAgICAgcGFkZGluZzogMXJlbTtcbiAgICB9XG4gICAgXG4gICAgLnJlZ2xhbWVudG8taDIge1xuICAgICAgICBjb2xvcjogI2Y5NjMzMjtcbiAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDIuNnJlbSk7XG4gICAgICAgIHotaW5kZXg6IDEwMDA7XG4gICAgICAgIGJhY2tncm91bmQ6IHdoaXRlO1xuICAgICAgICB3aWR0aDogOC42cmVtO1xuICAgIH1cbiAgICBcbiAgICAucmVnbGFtZW50by1oMSB7XG4gICAgICAgIGNvbG9yOiAjZjk2MzMyO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgfVxuICAgIFxuICAgIC5ldmVudC1uZWcge1xuICAgICAgICBmb250LXdlaWdodDogNjAwO1xuICAgIH1cblxuICAgIC5jaXJjdWl0byB7XG4gICAgICBkaXNwbGF5OiBibG9jaztcbiAgICAgIG1hcmdpbi1sZWZ0OiBhdXRvO1xuICAgICAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICAgICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgfVxuXG4gICAgICBgfTwvc3R5bGU+XG4gIDwvZGl2PlxuKTtcblxuZXhwb3J0IGRlZmF1bHQgZXZlbnRvdmlpO1xuIl19 */\n/*@ sourceURL=/home/renatoamreis/Desktop/cueva-nextjs/pages/eventos/evento-vii.js */"));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Home);
+/* harmony default export */ __webpack_exports__["default"] = (eventovii);
 
 /***/ }),
 
-/***/ 0:
-/*!***********************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Findex.js ***!
-  \***********************************************************************************************************************************/
+/***/ 3:
+/*!**********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Feventos%2Fevento-vii&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Feventos%2Fevento-vii.js ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Feventos%2Fevento-vii&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Feventos%2Fevento-vii.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Feventos%2Fevento-vii&absolutePagePath=%2Fhome%2Frenatoamreis%2FDesktop%2Fcueva-nextjs%2Fpages%2Feventos%2Fevento-vii.js!./");
 
 
 /***/ }),
@@ -30555,5 +29999,5 @@ module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=index.js.map
+},[[3,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=evento-vii.js.map

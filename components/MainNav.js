@@ -30,7 +30,7 @@ const MainNav = () => (
         </li>
         <li className="main-nav__item">
           <Link href="./quiene-somos">
-            <p className="main-nav__item-names">¿Quiene Somos?</p>
+            <p className="main-nav__item-names">¿Quienes Somos?</p>
           </Link>
         </li>
         <li className="main-nav__item">
