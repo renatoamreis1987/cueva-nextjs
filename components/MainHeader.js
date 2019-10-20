@@ -3,7 +3,7 @@ import React from "react";
 const MainHeader = () => (
   <div className="main-overview">
 
-      <img className="cueva-logo" src="https://i.ibb.co/ZgF7nbc/logo.png" />
+      <img className="cueva-logo" src="/static/logo.png" />
 
     <h1 className="main-overview__text-h1">Cueva de Kün y Hebles</h1>
     <h2 className="main-overview__text-h2">
