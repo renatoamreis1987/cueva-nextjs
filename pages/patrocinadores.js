@@ -3,13 +3,15 @@ import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
 import Patrocinadores from "../components/Patrocinadores";
 import MainFooter from "../components/MainFooter";
+import Head from "../components/head";
 
 class patrocinadores extends Component {
   constructor() {
     super();
 
     this.state = {
-      patrocinadores: []
+      patrocinadores: [],
+      title: "Cueva de Kun y Hebles - Patrocinadores"
     };
   }
 
@@ -22,10 +24,11 @@ class patrocinadores extends Component {
   }
 
   render() {
-    const { patrocinadores } = this.state;
+    const { patrocinadores, title } = this.state;
 
     return (
       <div>
+        <Head title={title} />
         <MainNav />
         <MainHeader />
         <Patrocinadores patrocinadores={patrocinadores} />

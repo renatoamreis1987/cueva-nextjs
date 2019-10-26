@@ -11,16 +11,16 @@ const MainInfo = () => {
         <a href="./images/eventos/cartel.jpeg" target="_blank" />
         <img
           className="main-info__eventos-image-img "
-          src="http://www.cuevakunyhebles.com/wp-content/uploads/2019/05/cartel.jpeg"
+          src="/static/cartels/CARTEL_SAN_PINTEÑA_2019_rb1rpu.jpg"
           alt=""
         />
       </div>
       <div className="main-info__eventos-content">
-        <h1>VII Carrera Nocturna</h1>
-        <h1>por el centro peninsular</h1>
-        <h2>3 de Agosto de 2019</h2>
+        <h1>VIII carrera popular</h1>
+        <h1>San Pinteña</h1>
+        <h2>22 de Diciembre de 2019</h2>
         <br />
-        <Link href="/eventos/evento-vii">
+        <Link href="/eventos/evento-viii-san-pintena">
           <button className="main-info__button">Más Informacion</button>
         </Link>
       </div>

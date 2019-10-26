@@ -3,13 +3,15 @@ import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
 import Galeria from "../components/Galeria";
 import MainFooter from "../components/MainFooter";
+import Head from "../components/head";
 
 class galeria extends Component {
   constructor() {
     super();
 
     this.state = {
-      galeria: []
+      galeria: [],
+      title: "Cueva de Kun y Hebles - Galeria"
     };
   }
 
@@ -20,10 +22,11 @@ class galeria extends Component {
   }
 
   render() {
-    const { galeria } = this.state;
+    const { galeria, title } = this.state;
 
     return (
       <div>
+        <Head title={title} />
         <MainNav />
         <MainHeader />
         <Galeria galeria={galeria} />

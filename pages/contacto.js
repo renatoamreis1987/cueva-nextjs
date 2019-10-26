@@ -1,11 +1,12 @@
 import React from "react";
 import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
-
+import Head from "../components/head";
 import MainFooter from "../components/MainFooter";
 
 const contacto = () => (
   <div>
+        <Head title={"Cueva de Kun y Hebles - Contactanos"} />
     <MainNav />
     <MainHeader />
 

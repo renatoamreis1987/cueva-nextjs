@@ -2,9 +2,11 @@ import React from "react";
 import MainNav from "../components/MainNav";
 import MainHeader from "../components/MainHeader";
 import MainFooter from "../components/MainFooter";
+import Head from "../components/head";
 
 const equipo = () => (
   <div>
+    <Head title={"Cueva de Kun y Hebles - ¿Quienes Somos?"} />
     <MainNav />
     <MainHeader />
     <div className="main-info container">
